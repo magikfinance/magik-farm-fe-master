@@ -8789,10 +8789,10 @@ ltgt@~2.2.0:
   resolved "https://registry.yarnpkg.com/ltgt/-/ltgt-2.2.1.tgz#f35ca91c493f7b73da0e07495304f17b31f87ee5"
   integrity sha1-81ypHEk/e3PaDgdJUwTxezH4fuU=
 
-magikfarm-addressbook@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/magikfarm-addressbook/-/magikfarm-addressbook-1.0.0.tgz#bc41db7665f523d4042000f06c26057df543a155"
-  integrity sha512-35+szH6j8+yLIz/wQhAwZcXFFG1DWX5hae6xlXWsU9s01WhyaL2Vc14G6wSININgkSuATI5dtIr/AMUG68MuZQ==
+magikfarm-addressbook@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/magikfarm-addressbook/-/magikfarm-addressbook-1.0.1.tgz#41aea92ff4d3c3c21bebefac84836d707c38dcaa"
+  integrity sha512-W/sTcG6BGZ8KlKYrc9nV5JLIS7wTz9ZaNWVoYEBl22oMYknQnxIvB2cnLu7mplyI1xex4k/J+d5nQXtPhr1JVA==
 
 make-dir@^2.0.0, make-dir@^2.1.0:
   version "2.1.0"
