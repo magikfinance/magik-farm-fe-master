@@ -17,14 +17,14 @@ const Disclaimer = () => {
       <Typography className={classes.disclaimer}>
         {t('Disclaimer')}
         <br />
-        Magik AC was not effected by any exploits.{' '}
-        <a
+        Magik AC was not effected by any exploits Forked from BIFI.{' '}
+        {/* <a
           target="_blank"
           rel="noopener noreferrer"
           href="#" // https://medium.com/@bombbshare/dec-18-quick-update-regarding-grim-exploit-4f1a0c989fba
         >
           Read more here
-        </a>
+        </a> */}
       </Typography>
     </Grid>
   );

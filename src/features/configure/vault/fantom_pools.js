@@ -53,9 +53,9 @@ export const fantomPools = [
     risks: ['COMPLEXITY_LOW', 'BATTLE_TESTED', 'IL_LOW', 'AUDIT', 'CONTRACTS_VERIFIED'],
     stratType: 'StratLP',
     addLiquidityUrl:
-      'https://swap.spiritswap.finance/#/add/0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83/0x87a5C9B60A3aaf1064006FE64285018e50e0d020',
+      'https://swap.spiritswap.finance/#/add/0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83/0xC8Ca9026Ad0882133Ef126824F6852567c571A4E',
     buyTokenUrl:
-      'https://swap.spiritswap.finance/#/exchange/swap/FTM/0x87a5c9b60a3aaf1064006fe64285018e50e0d020',
+      'https://swap.spiritswap.finance/#/exchange/swap/FTM/0xc8ca9026ad0882133ef126824f6852567c571a4e',
   },
   {
     id: 'spirit-mshare-magik',
@@ -82,9 +82,9 @@ export const fantomPools = [
     risks: ['COMPLEXITY_LOW', 'BATTLE_TESTED', 'IL_LOW', 'AUDIT', 'CONTRACTS_VERIFIED'],
     stratType: 'StratLP',
     addLiquidityUrl:
-      'https://swap.spiritswap.finance/#/add/0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83/0x87a5C9B60A3aaf1064006FE64285018e50e0d020',
+      'https://swap.spiritswap.finance/#/add/0x87a5C9B60A3aaf1064006FE64285018e50e0d020/0xC8Ca9026Ad0882133Ef126824F6852567c571A4E',
     buyTokenUrl:
-      'https://swap.spiritswap.finance/#/exchange/swap/FTM/0x87a5c9b60a3aaf1064006fe64285018e50e0d020',
+      'https://swap.spiritswap.finance/#/exchange/swap/MAGIK/0xC8Ca9026Ad0882133Ef126824F6852567c571A4E',
   },
   {
     id: 'spirit-magik',
