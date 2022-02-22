@@ -127,7 +127,7 @@ const validatePools = async () => {
       uniqueOracleId.add(pool.oracleId);
 
       const { keeper, strategyOwner, vaultOwner, beefyFeeRecipient } =
-        addressBook[chain].platforms.bombfarm;
+        addressBook[chain].platforms.magikfarm;
 
       updates = isKeeperCorrect(pool, chain, keeper, updates);
       updates = isStratOwnerCorrect(pool, chain, strategyOwner, updates);
