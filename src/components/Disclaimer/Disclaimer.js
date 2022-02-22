@@ -17,7 +17,7 @@ const Disclaimer = () => {
       <Typography className={classes.disclaimer}>
         {t('Disclaimer')}
         <br />
-        Magik AC was not effected by any exploits Forked from BIFI.{' '}
+        Magik AC was not affected by any exploits. Forked from BIFI.{' '}
         {/* <a
           target="_blank"
           rel="noopener noreferrer"
