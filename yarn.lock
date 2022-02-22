@@ -3434,11 +3434,6 @@ body-parser@1.19.0, body-parser@^1.16.0:
     raw-body "2.4.0"
     type-is "~1.6.17"
 
-bombfarm-addressbook@^0.5.9:
-  version "0.5.10"
-  resolved "https://registry.yarnpkg.com/bombfarm-addressbook/-/bombfarm-addressbook-0.5.10.tgz#31989dce87a260356da6acae99f81e494a6ff643"
-  integrity sha512-x1VK8nriPnW22xQRPApEX5RMHCXIVj6j7gY8V5ePqyJAsU3MNJk1yNa50CHucscQbyeLxXM/NDAGr3Z/zlAtyQ==
-
 bonjour@^3.5.0:
   version "3.5.0"
   resolved "https://registry.yarnpkg.com/bonjour/-/bonjour-3.5.0.tgz#8e890a183d8ee9a2393b3844c691a42bcf7bc9f5"
@@ -8793,6 +8788,11 @@ ltgt@~2.2.0:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/ltgt/-/ltgt-2.2.1.tgz#f35ca91c493f7b73da0e07495304f17b31f87ee5"
   integrity sha1-81ypHEk/e3PaDgdJUwTxezH4fuU=
+
+magikfarm-addressbook@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/magikfarm-addressbook/-/magikfarm-addressbook-1.0.0.tgz#bc41db7665f523d4042000f06c26057df543a155"
+  integrity sha512-35+szH6j8+yLIz/wQhAwZcXFFG1DWX5hae6xlXWsU9s01WhyaL2Vc14G6wSININgkSuATI5dtIr/AMUG68MuZQ==
 
 make-dir@^2.0.0, make-dir@^2.1.0:
   version "2.1.0"

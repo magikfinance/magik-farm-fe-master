@@ -1,6 +1,6 @@
 // To run: yarn validate
 import { MultiCall } from 'eth-multicall';
-import { addressBook } from 'bombfarm-addressbook';
+import { addressBook } from 'magikfarm-addressbook';
 import Web3 from 'web3';
 
 import { isEmpty } from '../src/features/helpers/utils.js';
@@ -109,7 +109,8 @@ const validatePools = async () => {
         if (pool.hasOwnProperty(field) && !isValidChecksumAddress(pool[field])) {
           const maybeValid = maybeChecksumAddress(pool[field]);
           console.error(
-            `Error: ${pool.id} : ${field} requires checksum - ${maybeValid ? `\n\t${field}: '${maybeValid}',` : 'it is invalid'
+            `Error: ${pool.id} : ${field} requires checksum - ${
+              maybeValid ? `\n\t${field}: '${maybeValid}',` : 'it is invalid'
             }`
           );
           exitCode = 1;
@@ -126,7 +127,7 @@ const validatePools = async () => {
       uniqueOracleId.add(pool.oracleId);
 
       const { keeper, strategyOwner, vaultOwner, beefyFeeRecipient } =
-        addressBook[chain].platforms.spiritswap;
+        addressBook[chain].platforms.bombfarm;
 
       updates = isKeeperCorrect(pool, chain, keeper, updates);
       updates = isStratOwnerCorrect(pool, chain, strategyOwner, updates);
