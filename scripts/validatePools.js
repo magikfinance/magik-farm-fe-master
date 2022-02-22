@@ -125,8 +125,8 @@ const validatePools = async () => {
       uniqueEarnedTokenAddress.add(pool.earnedTokenAddress);
       uniqueOracleId.add(pool.oracleId);
 
-      // const { keeper, strategyOwner, vaultOwner, beefyFeeRecipient } =
-      //   addressBook[chain].platforms.bombfarm;
+      const { keeper, strategyOwner, vaultOwner, beefyFeeRecipient } =
+        addressBook[chain].platforms.spiritswap;
 
       updates = isKeeperCorrect(pool, chain, keeper, updates);
       updates = isStratOwnerCorrect(pool, chain, strategyOwner, updates);
