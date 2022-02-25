@@ -39,7 +39,7 @@
   "Vault-Withdrawing": "Withdrawing...",
   "Vault-WithdrawButton": "Withdraw",
   "Vault-WithdrawButtonAll": "Withdraw All",
-  "Vault-WithdrawFeeGlobal": "0.1% withdrawal fee on all vaults (unless exception noted on vault card)",
+  "Vault-WithdrawFeeGlobal": "0% withdrawal fee on all vaults (unless exception noted on vault card)",
   "Vault-WithdrawSuccess": "Withdrawal success",
   "Vault-WithdrawError": "Withdrawal error: {{error}}",
   "Vault-WithdrawScenario": "Withdrawal will result in:",
