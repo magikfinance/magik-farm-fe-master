@@ -180,6 +180,6 @@ export const fantomPools = [
     ],
     stratType: 'SingleStake',
     buyTokenUrl:
-      'https://swap.spiritswap.finance/#/exchange/swap/0x87a5c9b60a3aaf1064006fe64285018e50e0d020',
+      'https://spookyswap.finance/swap?outputCurrency=0x1078864a3B0E5843995dE00517d871d0A686380b',
   },
 ];
