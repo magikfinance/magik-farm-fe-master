@@ -1,4 +1,4 @@
-import { addressBook } from 'magikfarm-addressbook';
+import { addressBook } from 'magik-addressbook';
 
 const {
   polygon: polygonAddressBook,
