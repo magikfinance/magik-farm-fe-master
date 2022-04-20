@@ -36,7 +36,7 @@ export const fantomPools = [
     tokenAddress: '0xDc71A6160322ad78DaB0abb47C7A581cFE9709Ee',
     tokenDecimals: 18,
     tokenDescriptionUrl: '#',
-    earnedToken: 'spiritMAGIK-FTM',
+    earnedToken: 'MAGIKfarm MAGIK-FTM',
     earnedTokenAddress: '0xe8cE63e37bB4B662837144058c298C4e7Fd0b93C',
     earnContractAddress: '0xe8cE63e37bB4B662837144058c298C4e7Fd0b93C',
     pricePerFullShare: 1,
