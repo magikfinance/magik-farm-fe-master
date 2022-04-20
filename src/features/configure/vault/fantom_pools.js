@@ -30,9 +30,9 @@ export const fantomPools = [
   },
   {
     id: 'spirit-ftm-magik',
-    name: 'MAGIK-FTM LP',
+    name: 'MAGIK-FTM LP🔥',
     token: 'MAGIK-FTM LP',
-    tokenDescription: 'Magik Finance',
+    tokenDescription: 'Magik Finance - AC Auto Burn Vault 🔥',
     tokenAddress: '0xDc71A6160322ad78DaB0abb47C7A581cFE9709Ee',
     tokenDecimals: 18,
     tokenDescriptionUrl: '#',
