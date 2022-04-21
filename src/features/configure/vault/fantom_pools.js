@@ -32,7 +32,7 @@ export const fantomPools = [
     id: '3omb-3omb-ftm',
     name: 'Spooky 3OMB-FTM🔥',
     token: 'Spooky 3OMB-FTM🔥',
-    tokenDescription: '2omb.finance Spooky LP - AC Auto Burn Vault',
+    tokenDescription: '3omb.finance Spooky LP - AC Auto Burn Vault',
     tokenAddress: '0x83A52eff2E9D112E9B022399A9fD22a9DB7d33Ae',
     tokenDecimals: 18,
     tokenDescriptionUrl: '#',
