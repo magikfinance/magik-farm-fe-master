@@ -53,9 +53,9 @@ export const fantomPools = [
     risks: ['COMPLEXITY_LOW', 'BATTLE_TESTED', 'IL_LOW', '5AUDIT', 'CONTRACTS_VERIFIED'],
     stratType: 'StratLP',
     addLiquidityUrl:
-      'https://spookyswap.finance/add/0x7a6e4E3CC2ac9924605DCa4bA31d1831c84b44aE/FTM',
+      'https://spookyswap.finance/add/FTM/0x14DEf7584A6c52f470Ca4F4b9671056b22f4FfDE',
     buyTokenUrl:
-      'https://spookyswap.finance/swap?outputCurrency=0x9b7F7E44904Bb61a9710685c938eA5f867Cb36b2',
+      'https://spookyswap.finance/swap?outputCurrency=0x14DEf7584A6c52f470Ca4F4b9671056b22f4FfDE',
   },
   {
     id: 'spirit-ftm-magik',
