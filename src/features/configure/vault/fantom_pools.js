@@ -20,7 +20,7 @@ export const fantomPools = [
     isMooStaked: true,
     status: 'active',
     platform: 'SpookySwap',
-    assets: ['REBEL', 'FTM'],
+    assets: ['REBEL', 'USDC'],
     risks: ['COMPLEXITY_LOW', 'BATTLE_TESTED', 'IL_LOW', '5AUDIT', 'CONTRACTS_VERIFIED'],
     stratType: 'StratLP',
     addLiquidityUrl:
@@ -49,7 +49,7 @@ export const fantomPools = [
     isMooStaked: true,
     status: 'active',
     platform: 'SpookySwap',
-    assets: ['VICTORY', 'FTM'],
+    assets: ['VICTORY', 'USDC'],
     risks: ['COMPLEXITY_LOW', 'BATTLE_TESTED', 'IL_LOW', '5AUDIT', 'CONTRACTS_VERIFIED'],
     stratType: 'StratLP',
     addLiquidityUrl:
