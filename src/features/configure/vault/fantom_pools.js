@@ -3,7 +3,7 @@ export const fantomPools = [
     id: 'spooky-usdc-rebel',
     name: 'REBEL - USDC 🔥',
     token: 'REBEL - USDC 🔥',
-    tokenDescription: 'Ukrainefinance.ap - AC Auto Burn Vault',
+    tokenDescription: 'Ukrainefinance.app - AC Auto Burn Vault',
     tokenAddress: '0x1B9a7855Ddf35cc6F5920D3fe6f4A4CA144Ce750',
     tokenDecimals: 18,
     tokenDescriptionUrl: '#',
