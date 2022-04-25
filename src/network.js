@@ -12,12 +12,12 @@ export const allNetworks = [
   //   id: 128,
   //   hash: '/heco',
   // },
-  // {
-  //   name: 'AVALANCHE',
-  //   asset: 'AVALANCHE',
-  //   id: 43114,
-  //   hash: '/avax',
-  // },
+  {
+    name: 'AVALANCHE',
+    asset: 'AVALANCHE',
+    id: 43114,
+    hash: '/avax',
+  },
   // {
   //   name: 'POLYGON',
   //   asset: 'POLYGON',
@@ -60,7 +60,6 @@ export const allNetworks = [
   //   id: 3,
   //   hash: '/ropsten',
   // },
-
 ];
 
 const network = allNetworks.find(n => window.location.hash.startsWith('#' + n.hash));

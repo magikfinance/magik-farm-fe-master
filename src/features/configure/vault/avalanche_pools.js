@@ -1,1 +1,31 @@
-export const avalanchePools = [];
+export const avalanchePools = [
+  {
+    id: 'grape-grape-mim',
+    name: 'GRAPE - MIM 🔥',
+    token: 'GRAPE - MIM',
+    tokenDescription: 'grapefinance.app - GRAPE - MIM LP AC Auto Burn Vault 🔥',
+    tokenAddress: '0xb382247667fe8CA5327cA1Fa4835AE77A9907Bc8',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'MagikFarm - Grape - MIM LP',
+    earnedTokenAddress: '0xe8cE63e37bB4B662837144058c298C4e7Fd0b93C',
+    earnContractAddress: '0xe8cE63e37bB4B662837144058c298C4e7Fd0b93C',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'grape-grape-mim',
+    oraclePrice: 0,
+    depositsPaused: false,
+    partnership: true,
+    isMooStaked: true,
+    status: 'active',
+    platform: 'Grape',
+    assets: ['GRAPE', 'MIM'],
+    risks: ['COMPLEXITY_LOW', 'BATTLE_TESTED', 'IL_LOW', '5AUDIT', 'CONTRACTS_VERIFIED'],
+    stratType: 'StratLP',
+    addLiquidityUrl:
+      'https://traderjoexyz.com/pool/0x130966628846bfd36ff31a822705796e8cb8c18d/0x5541d83efad1f281571b343977648b75d95cdac2#/',
+    buyTokenUrl:
+      'https://traderjoexyz.com/trade?inputCurrency=0x130966628846bfd36ff31a822705796e8cb8c18d&outputCurrency=0x5541d83efad1f281571b343977648b75d95cdac2#/',
+  },
+];
