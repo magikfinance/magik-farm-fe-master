@@ -12,12 +12,7 @@ export const allNetworks = [
   //   id: 128,
   //   hash: '/heco',
   // },
-  // {
-  //   name: 'AVALANCHE',
-  //   asset: 'AVALANCHE',
-  //   id: 43114,
-  //   hash: '/avax',
-  // },
+
   // {
   //   name: 'POLYGON',
   //   asset: 'POLYGON',
@@ -30,12 +25,12 @@ export const allNetworks = [
     id: 250,
     hash: '/fantom',
   },
-  // {
-  //   name: 'HARMONY',
-  //   asset: 'HARMONY',
-  //   id: 1666600000,
-  //   hash: '/harmony',
-  // },
+  {
+    name: 'AVALANCHE',
+    asset: 'AVALANCHE',
+    id: 43114,
+    hash: '/avax',
+  },
   // {
   //   name: 'ARBITRUM',
   //   asset: 'ARBITRUM',
@@ -60,7 +55,6 @@ export const allNetworks = [
   //   id: 3,
   //   hash: '/ropsten',
   // },
-
 ];
 
 const network = allNetworks.find(n => window.location.hash.startsWith('#' + n.hash));
