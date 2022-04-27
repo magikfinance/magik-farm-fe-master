@@ -28,4 +28,33 @@ export const avalanchePools = [
     buyTokenUrl:
       'https://traderjoexyz.com/trade?inputCurrency=0x130966628846bfd36ff31a822705796e8cb8c18d&outputCurrency=0x5541d83efad1f281571b343977648b75d95cdac2#/',
   },
+  {
+    id: 'grape-wine-mim',
+    name: 'WINE - MIM ',
+    token: 'WINE - MIM',
+    tokenDescription: 'grapefinance.app - WINE - MIM LP AC Vault ',
+    tokenAddress: '0x00cB5b42684DA62909665d8151fF80D1567722c3',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'MagikFarm - WINE-MIM LP',
+    earnedTokenAddress: '0x0B2a90132fC171B37c6999845703C90479B7124F',
+    earnContractAddress: '0x0B2a90132fC171B37c6999845703C90479B7124F',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'grape-wine-mim',
+    oraclePrice: 0,
+    depositsPaused: false,
+    partnership: true,
+    isMooStaked: true,
+    status: 'active',
+    platform: 'Grape',
+    assets: ['WINE', 'MIM'],
+    risks: ['COMPLEXITY_LOW', 'BATTLE_TESTED', 'IL_LOW', '5AUDIT', 'CONTRACTS_VERIFIED'],
+    stratType: 'StratLP',
+    addLiquidityUrl:
+      'https://traderjoexyz.com/pool/0x130966628846bfd36ff31a822705796e8cb8c18d/0xc55036b5348cfb45a932481744645985010d3a44#/',
+    buyTokenUrl:
+      'https://traderjoexyz.com/trade?inputCurrency=0x130966628846bfd36ff31a822705796e8cb8c18d&outputCurrency=0xc55036b5348cfb45a932481744645985010d3a44#/',
+  },
 ];
