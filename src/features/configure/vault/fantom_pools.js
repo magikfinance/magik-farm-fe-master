@@ -1,5 +1,35 @@
 export const fantomPools = [
   {
+    id: 'spooky-ftm-honey',
+    name: 'HONEY - FTM LP 🔥',
+    token: 'HONEY - FTM LP 🔥',
+    tokenDescription: 'thehive.finance - Honey-FTM LP - AC Auto Burn Vault',
+    tokenAddress: '0x9aF30D7EFBbFC4cd46d6cf973FC1456d8BF6FBC7',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'MagikFarm-Honey-FTM',
+    earnedTokenAddress: '0x86db64E1f16D1263302D552454E065B5F26BF557',
+    earnContractAddress: '0x86db64E1f16D1263302D552454E065B5F26BF557',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'spooky-ftm-honey',
+    oraclePrice: 0,
+    depositsPaused: false,
+    partnership: true,
+    isMooStaked: true,
+    status: 'active',
+    platform: 'SpookySwap',
+    assets: ['HONEY', 'FTM'],
+    risks: ['COMPLEXITY_LOW', 'BATTLE_TESTED', 'IL_LOW', '5AUDIT', 'CONTRACTS_VERIFIED'],
+    stratType: 'StratLP',
+    addLiquidityUrl:
+      'https://spookyswap.finance/add/FTM/0x6E3c6B9f44A788026F83B8613B04FDa704C2b9A6',
+    buyTokenUrl:
+      'https://spookyswap.finance/swap?outputCurrency=0x6E3c6B9f44A788026F83B8613B04FDa704C2b9A6',
+  },
+
+  {
     id: 'spooky-usdc-rebel',
     name: 'REBEL - USDC 🔥',
     token: 'REBEL - USDC 🔥',
