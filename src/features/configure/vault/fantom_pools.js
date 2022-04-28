@@ -1,5 +1,34 @@
 export const fantomPools = [
   {
+    id: 'spooky-ftm-rubik',
+    name: 'RUBIK - FTM LP 🔥',
+    token: 'RUBIK - FTM LP 🔥',
+    tokenDescription: 'www.rubik.finance - Rubik-FTM LP - AC Auto Burn Vault',
+    tokenAddress: '0x9f4cbfa5B43252f3eD06f35C3f1A1D14C36bCeF0',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'MagikFarm-Rubik-FTM',
+    earnedTokenAddress: '0x161e9639Ee21e04fd11f50EeC78B638CFfD521d0',
+    earnContractAddress: '0x161e9639Ee21e04fd11f50EeC78B638CFfD521d0',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'spooky-ftm-rubik',
+    oraclePrice: 0,
+    depositsPaused: false,
+    partnership: true,
+    isMooStaked: true,
+    status: 'active',
+    platform: 'SpookySwap',
+    assets: ['RUBIK', 'FTM'],
+    risks: ['COMPLEXITY_LOW', 'BATTLE_TESTED', 'IL_LOW', '5AUDIT', 'CONTRACTS_VERIFIED'],
+    stratType: 'StratLP',
+    addLiquidityUrl:
+      'https://spookyswap.finance/add/FTM/0xA4Db7f3b07c7Bf1b5E8283Bf9e8aA889569fc2e7',
+    buyTokenUrl:
+      'https://spookyswap.finance/swap?outputCurrency=0xA4Db7f3b07c7Bf1b5E8283Bf9e8aA889569fc2e7',
+  },
+  {
     id: 'spooky-ftm-honey',
     name: 'HONEY - FTM LP 🔥',
     token: 'HONEY - FTM LP 🔥',
@@ -28,7 +57,6 @@ export const fantomPools = [
     buyTokenUrl:
       'https://spookyswap.finance/swap?outputCurrency=0x6E3c6B9f44A788026F83B8613B04FDa704C2b9A6',
   },
-
   {
     id: 'spooky-usdc-rebel',
     name: 'REBEL - USDC 🔥',
