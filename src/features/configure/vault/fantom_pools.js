@@ -584,7 +584,7 @@ export const fantomPools = [
     oracle: 'lps',
     oracleId: '2omb-2omb-ftm',
     oraclePrice: 0,
-    depositsPaused: true,
+    depositsPaused: false,
     partnership: true,
     isMooStaked: true,
     status: 'active',
