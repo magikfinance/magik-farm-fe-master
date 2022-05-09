@@ -1,12 +1,6 @@
 /* eslint-disable import/first */
 export const allNetworks = [
   // {
-  //   name: 'BSC',
-  //   asset: 'BSC',
-  //   id: 56,
-  //   hash: '/bsc',
-  // },
-  // {
   //   name: 'HECO',
   //   asset: 'HECO',
   //   id: 128,
@@ -31,11 +25,17 @@ export const allNetworks = [
     id: 43114,
     hash: '/avax',
   },
+  {
+    name: 'BSC',
+    asset: 'BSC',
+    id: 56,
+    hash: '/bsc',
+  },
   // {
-  //   name: 'ARBITRUM',
-  //   asset: 'ARBITRUM',
-  //   id: 42161,
-  //   hash: '/arbitrum',
+  //   name: 'CRONOS',
+  //   asset: 'CRONOS',
+  //   id: 25,
+  //   hash: '/cronos',
   // },
   // {
   //   name: 'CELO',

@@ -10,17 +10,17 @@ export const networkSettings = {
   //   rpcUrls: ['https://ropsten.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161'],
   //   blockExplorerUrls: ['https://ropsten.etherscan.io/'],
   // },
-  // 56: {
-  //   chainId: `0x${parseInt(56, 10).toString(16)}`,
-  //   chainName: 'BSC Mainnet',
-  //   nativeCurrency: {
-  //     name: 'Binance Coin',
-  //     symbol: 'BNB',
-  //     decimals: 18,
-  //   },
-  //   rpcUrls: ['https://bsc-dataseed.binance.org'],
-  //   blockExplorerUrls: ['https://bscscan.com/'],
-  // },
+  56: {
+    chainId: `0x${parseInt(56, 10).toString(16)}`,
+    chainName: 'BSC Mainnet',
+    nativeCurrency: {
+      name: 'Binance Coin',
+      symbol: 'BNB',
+      decimals: 18,
+    },
+    rpcUrls: ['https://bsc-dataseed.binance.org'],
+    blockExplorerUrls: ['https://bscscan.com/'],
+  },
   // 128: {
   //   chainId: `0x${parseInt(128, 10).toString(16)}`,
   //   chainName: 'HECO Mainnet',
@@ -109,17 +109,17 @@ export const networkSettings = {
   //   rpcUrls: ['https://rpc.moonriver.moonbeam.network'],
   //   blockExplorerUrls: ['https://moonriver.moonscan.io/'],
   // },
-  // 25: {
-  //   chainId: `0x${parseInt(25, 10).toString(16)}`,
-  //   chainName: 'Cronos',
-  //   nativeCurrency: {
-  //     name: 'CRO',
-  //     symbol: 'CRO',
-  //     decimals: 18,
+  //   25: {
+  //     chainId: `0x${parseInt(25, 10).toString(16)}`,
+  //     chainName: 'Cronos',
+  //     nativeCurrency: {
+  //       name: 'CRO',
+  //       symbol: 'CRO',
+  //       decimals: 18,
+  //     },
+  //     rpcUrls: ['https://evm-cronos.crypto.org'],
+  //     blockExplorerUrls: ['https://cronos.crypto.org/explorer/'],
   //   },
-  //   rpcUrls: ['https://evm-cronos.crypto.org'],
-  //   blockExplorerUrls: ['https://cronos.crypto.org/explorer/'],
-  // },
 };
 
 export const networkSetup = chainId => {
