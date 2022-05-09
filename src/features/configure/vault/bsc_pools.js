@@ -1,9 +1,9 @@
 export const bscPools = [
   {
     id: 'emp-emp-eth',
-    name: 'EMP-ETH LP',
-    token: 'EMP-ETH LP',
-    tokenDescription: 'EMP.Money - EMP - ETH LP - AC Auto Burn Vault🔥 ',
+    name: 'EMP-ETH LP 🔥',
+    token: 'EMP-ETH LP 🔥',
+    tokenDescription: 'EMP.Money - EMP - ETH LP - AC Auto Burn Vault 🔥',
     tokenAddress: '0x84821bb588f049913Dc579Dc511E5e31EB22d5E4',
     tokenDecimals: 18,
     tokenDescriptionUrl: '#',
@@ -33,5 +33,40 @@ export const bscPools = [
     buyTokenUrl:
       'https://pancakeswap.finance/swap?inputCurrency=0x2170Ed0880ac9A755fd29B2688956BD959F933F8&outputCurrency=0x3b248CEfA87F836a4e6f6d6c9b42991b88Dc1d58',
     createdAt: 1648773316,
+  },
+  {
+    id: 'emp-eshare-wbnb',
+    name: 'ESHARE-BNB LP',
+    token: 'ESHARE-BNB LP',
+    tokenDescription: 'EMP.Money - ESHARE - BNB LP - AC Fee Share Vault',
+    tokenAddress: '0x1747AF98EBF0B22d500014c7dd52985d736337d2',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'MagikFarm-ESHARE-BNB',
+    earnedTokenAddress: '0xc822dE2843cf3a8a0642908F13d9f57E7A6D9011',
+    earnContractAddress: '0xc822dE2843cf3a8a0642908F13d9f57E7A6D9011',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'emp-eshare-wbnb',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'EMP.Money',
+    assets: ['ESHARE', 'BNB'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_HIGH',
+      'MCAP_MICRO',
+      'AUDIT',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    addLiquidityUrl:
+      'https://pancakeswap.finance/add/0xDB20F6A8665432CE895D724b417f77EcAC956550/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
+    buyTokenUrl:
+      'https://pancakeswap.finance/swap?outputCurrency=0xDB20F6A8665432CE895D724b417f77EcAC956550',
+    createdAt: 1648773315,
   },
 ];

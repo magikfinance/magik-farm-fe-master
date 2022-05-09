@@ -572,7 +572,7 @@ export const fantomPools = [
     id: 'red2omb-2omb-ftm',
     name: 'RED 2OMB-FTM🔥',
     token: 'RED 2OMB-FTM🔥',
-    tokenDescription: '2omb.finance Spooky LP - AC Auto Burn Vault',
+    tokenDescription: '2omb.finance Redemption.fi LP - AC Auto Burn Vault',
     tokenAddress: '0x3B602C7Ed7F9318926Ffbf767E5dc838cA210085',
     tokenDecimals: 18,
     tokenDescriptionUrl: '#',
