@@ -92,9 +92,9 @@ export const avalanchePools = [
   },
   {
     id: 'joe-wlrs-usdc',
-    name: 'WLRS - USDC 🔥',
-    token: 'WLRS - USDC 🔥',
-    tokenDescription: 'frozenwalrus.finance - WLRS - USDC LP AC Auto Burn Vault 🔥',
+    name: 'WLRS - USDC 5% Withdrawal Fee🔥',
+    token: 'WLRS - USDC 5% Withdrawal Fee🔥',
+    tokenDescription: 'frozenwalrus.finance  5% WITHDRAWAL FEE - WLRS - USDC LP AC Auto Burn Vault 🔥',
     tokenAddress: '0x82845B52b53c80595bbF78129126bD3E6Fc2C1DF',
     tokenDecimals: 18,
     tokenDescriptionUrl: '#',
