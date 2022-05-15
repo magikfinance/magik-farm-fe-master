@@ -90,4 +90,33 @@ export const avalanchePools = [
     buyTokenUrl:
       'https://traderjoexyz.com/trade?inputCurrency=0x130966628846bfd36ff31a822705796e8cb8c18d&outputCurrency=0xc55036b5348cfb45a932481744645985010d3a44#/',
   },
+  {
+    id: 'joe-wlrs-usdc',
+    name: 'WLRS - USDC 🔥',
+    token: 'WLRS - USDC 🔥',
+    tokenDescription: 'frozenwalrus.finance - WLRS - USDC LP AC Auto Burn Vault 🔥',
+    tokenAddress: '0x82845B52b53c80595bbF78129126bD3E6Fc2C1DF',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'MagikFarm - WLRS - USDC',
+    earnedTokenAddress: '0x92B1B91237388c2611Aa5df29A8059c9C8BE2366',
+    earnContractAddress: '0x92B1B91237388c2611Aa5df29A8059c9C8BE2366',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'joe-wlrs-usdc',
+    oraclePrice: 0,
+    depositsPaused: false,
+    partnership: true,
+    isMooStaked: true,
+    status: 'active',
+    platform: 'JOE',
+    assets: ['WLRS', 'USDC'],
+    risks: ['COMPLEXITY_LOW', 'BATTLE_TESTED', 'IL_LOW', '5AUDIT', 'CONTRACTS_VERIFIED'],
+    stratType: 'StratLP',
+    addLiquidityUrl:
+      'https://traderjoexyz.com/pool/0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664/0x395908aeb53d33A9B8ac35e148E9805D34A555D3#/',
+    buyTokenUrl:
+      'https://traderjoexyz.com/trade?inputCurrency=0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664&outputCurrency=0x395908aeb53d33A9B8ac35e148E9805D34A555D3#/',
+  },
 ];
