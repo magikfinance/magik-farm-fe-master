@@ -119,4 +119,33 @@ export const avalanchePools = [
     buyTokenUrl:
       'https://traderjoexyz.com/trade?inputCurrency=0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664&outputCurrency=0x395908aeb53d33A9B8ac35e148E9805D34A555D3#/',
   },
+  {
+    id: 'joe-wshare-usdc',
+    name: 'WSHARE - USDC 5% Withdrawal Fee🔥',
+    token: 'WSHARE - USDC 5% Withdrawal Fee🔥',
+    tokenDescription: 'frozenwalrus.finance  5% WITHDRAWAL FEE - WSHARE - USDC LP AC  Vault 🔥',
+    tokenAddress: '0x03d15E0451e54Eec95ac5AcB5B0a7ce69638c62A',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'MagikFarm - WSHARE - USDC',
+    earnedTokenAddress: '0xFD368aCD61dAFDceB544309a3F793Dab5c615fAe',
+    earnContractAddress: '0xFD368aCD61dAFDceB544309a3F793Dab5c615fAe',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'joe-wshare-usdc',
+    oraclePrice: 0,
+    depositsPaused: false,
+    partnership: true,
+    isMooStaked: true,
+    status: 'active',
+    platform: 'JOE',
+    assets: ['WSHARE', 'USDC'],
+    risks: ['COMPLEXITY_LOW', 'BATTLE_TESTED', 'IL_LOW', '5AUDIT', 'CONTRACTS_VERIFIED'],
+    stratType: 'StratLP',
+    addLiquidityUrl:
+      'https://traderjoexyz.com/pool/0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664/0xe6d1aFea0B76C8f51024683DD27FA446dDAF34B6#/',
+    buyTokenUrl:
+      'https://traderjoexyz.com/trade?inputCurrency=0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664&outputCurrency=0xe6d1aFea0B76C8f51024683DD27FA446dDAF34B6#/',
+  },
 ];
