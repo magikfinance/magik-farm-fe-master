@@ -61,8 +61,11 @@ const Header = ({ links, isNightMode, setNightMode }) => {
                 src={require(`images/single-assets/MAGIK.png`)}
                 height={'35px'}
                 className={classes.logo}
-              />
-            </Hidden>
+              />  
+            </  Hidden>
+            <a href="https://avery-bigweapon.gitbook.io/magik.farm-docs/" className={classes.link}>
+                Documentation
+              </a>
           </Button>
         </Link>
 
@@ -90,8 +93,8 @@ const Header = ({ links, isNightMode, setNightMode }) => {
           }}
           onClose={handleDrawerToggle}
         >
-          <IconButton
-            color="inherit"
+         <IconButton
+            colo r="inherit"
             aria-label="open drawer"
             onClick={handleDrawerToggle}
             className={classes.closeButtonDrawer}
@@ -105,6 +108,12 @@ const Header = ({ links, isNightMode, setNightMode }) => {
                 <u>Magik Finance</u>
               </h3>
             </a>
+            <a  href="https://avery-bigweapon.gitbook.io/magik.farm-docs/" target="_blank" rel="noopener noreferrer">
+              <h3>
+                <u>Documentation</u>
+              </h3>
+            </a>
+
           </div>
         </Drawer>
       </Hidden>
@@ -193,7 +202,7 @@ const LinkSidebar = ({ name, label, icon, classes }) => (
 );
 
 const getLinkUrl = name => {
-  return name === 'buy' ? getNetworkBuyUrl() : `https://${name}.bomb.farm`;
+  return name === 'buy' ? getNetworkBuyUrl() : `https://${name}.magik.farm`;
 };
 
 export default Header;
