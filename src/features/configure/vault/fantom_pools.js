@@ -121,8 +121,8 @@ export const fantomPools = [
   },
   {
     id: 'spooky-tomb-based',
-    name: 'BASED - TOMB LP',
-    token: 'BASED - TOMB LP',
+    name: 'BASED - TOMB LP🔥',
+    token: 'BASED - TOMB LP🔥',
     tokenDescription: 'Basedfinance.io - BASED - TOMB LP AC Auto Burn Vault 🔥',
     tokenAddress: '0xaB2ddCBB346327bBDF97120b0dD5eE172a9c8f9E',
     tokenDecimals: 18,
