@@ -148,4 +148,33 @@ export const avalanchePools = [
     buyTokenUrl:
       'https://traderjoexyz.com/trade?inputCurrency=0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664&outputCurrency=0xe6d1aFea0B76C8f51024683DD27FA446dDAF34B6#/',
   },
+  {
+    id: 'piggy-piggy-avax',
+    name: 'PIGGY - AVAX 🔥',
+    token: 'PIGGY - AVAX 🔥',
+    tokenDescription: 'piggyfinance.io - PIGGY - AVAX LP AC Auto Burn Vault 🔥',
+    tokenAddress: '0x2440885843d8e9f16a4b64933354d1CfBCf7F180',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'MagikFarm - PIGGY - AVAX',
+    earnedTokenAddress: '0xe74131997f5e61a06384a70F2a924fCBDb102035',
+    earnContractAddress: '0xe74131997f5e61a06384a70F2a924fCBDb102035',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'piggy-piggy-avax',
+    oraclePrice: 0,
+    depositsPaused: false,
+    partnership: true,
+    isMooStaked: true,
+    status: 'active',
+    platform: 'JOE',
+    assets: ['PIGGY', 'AVAX'],
+    risks: ['COMPLEXITY_LOW', 'BATTLE_TESTED', 'IL_LOW', '5AUDIT', 'CONTRACTS_VERIFIED'],
+    stratType: 'StratLP',
+    addLiquidityUrl:
+      'https://traderjoexyz.com/pool/AVAX/0x1a877B68bdA77d78EEa607443CcDE667B31B0CdF#/',
+    buyTokenUrl:
+      'https://traderjoexyz.com/trade?outputCurrency=0x1a877B68bdA77d78EEa607443CcDE667B31B0CdF',
+  },
 ];
