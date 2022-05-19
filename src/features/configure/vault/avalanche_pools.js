@@ -177,4 +177,33 @@ export const avalanchePools = [
     buyTokenUrl:
       'https://traderjoexyz.com/trade?outputCurrency=0x1a877B68bdA77d78EEa607443CcDE667B31B0CdF',
   },
+  {
+    id: 'bam-bam-usdc',
+    name: 'BAM - USDC 🔥',
+    token: 'BAM - USDC 🔥',
+    tokenDescription: 'bamboofinance.app - BAM - USDC LP AC Auto Burn Vault 🔥',
+    tokenAddress: '0xbe7C737FCC2D6EBA0e4e73A073a0120171287769',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'MagikFarm - BAM - USDC',
+    earnedTokenAddress: '0x12AefAa0c1961d450D5772a5e94D721A9eBAF72c',
+    earnContractAddress: '0x12AefAa0c1961d450D5772a5e94D721A9eBAF72c',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'bam-bam-usdc',
+    oraclePrice: 0,
+    depositsPaused: false,
+    partnership: true,
+    isMooStaked: true,
+    status: 'active',
+    platform: 'JOE',
+    assets: ['BAM', 'USDC'],
+    risks: ['COMPLEXITY_LOW', 'BATTLE_TESTED', 'IL_LOW', '5AUDIT', 'CONTRACTS_VERIFIED'],
+    stratType: 'StratLP',
+    addLiquidityUrl:
+      'https://traderjoexyz.com/pool/0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E/0x5cc339Aa2A582D857F38B85F662Ea3513706a1E7#/',
+    buyTokenUrl:
+      'https://traderjoexyz.com/trade?inputCurrency=0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E&outputCurrency=0x5cc339Aa2A582D857F38B85F662Ea3513706a1E7#/',
+  },
 ];
