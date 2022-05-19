@@ -206,4 +206,33 @@ export const avalanchePools = [
     buyTokenUrl:
       'https://traderjoexyz.com/trade?inputCurrency=0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E&outputCurrency=0x5cc339Aa2A582D857F38B85F662Ea3513706a1E7#/',
   },
+  {
+    id: 'bam-bdao-usdc',
+    name: 'BDAO - USDC 🔥',
+    token: 'BDAO - USDC 🔥',
+    tokenDescription: 'bamboofinance.app - BDAO - USDC LP AC Vault',
+    tokenAddress: '0x0774F0acC4DD1CA84BC8521FEe6dC2f7D22f133f',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'MagikFarm - BDAO - USDC',
+    earnedTokenAddress: '0xB5E8BB16a8cc347d3671Cb7d855a7776e34c9E35',
+    earnContractAddress: '0xB5E8BB16a8cc347d3671Cb7d855a7776e34c9E35',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'bam-bdao-usdc',
+    oraclePrice: 0,
+    depositsPaused: false,
+    partnership: true,
+    isMooStaked: true,
+    status: 'active',
+    platform: 'JOE',
+    assets: ['BDAO', 'USDC'],
+    risks: ['COMPLEXITY_LOW', 'BATTLE_TESTED', 'IL_LOW', '5AUDIT', 'CONTRACTS_VERIFIED'],
+    stratType: 'StratLP',
+    addLiquidityUrl:
+      'https://traderjoexyz.com/pool/0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E/0x83c7412931398502922a35911E5Fab221822f4B6#/',
+    buyTokenUrl:
+      'https://traderjoexyz.com/trade?inputCurrency=0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E&outputCurrency=0x83c7412931398502922a35911E5Fab221822f4B6#/',
+  },
 ];
