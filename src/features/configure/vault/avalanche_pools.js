@@ -264,4 +264,33 @@ export const avalanchePools = [
     buyTokenUrl:
       'https://traderjoexyz.com/trade?inputCurrency=0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664&outputCurrency=0x4341eea753C2cb129e478dEF09C8C973E67Aa51a#/',
   },
+  {
+    id: 'hero-hshare-usdc',
+    name: 'HSHARE - USDC.e 🔥',
+    token: 'HSHARE - USDC.e 🔥',
+    tokenDescription: 'herofinance.tech - HSHARE - USDC.e LP AC Vault ',
+    tokenAddress: '0x29B0929a1EafFC28ecFE11203582cAFfE4f65b09',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'MagikFarm - HSHARE - USDC.e',
+    earnedTokenAddress: '0xFbf22de5dc1cB61aF86A8CF1bd5846c8b5cd7116',
+    earnContractAddress: '0xFbf22de5dc1cB61aF86A8CF1bd5846c8b5cd7116',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'hero-hshare-usdc',
+    oraclePrice: 0,
+    depositsPaused: false,
+    partnership: true,
+    isMooStaked: true,
+    status: 'active',
+    platform: 'JOE',
+    assets: ['HSHAREHERO', 'USDC'],
+    risks: ['COMPLEXITY_LOW', 'BATTLE_TESTED', 'IL_LOW', '5AUDIT', 'CONTRACTS_VERIFIED'],
+    stratType: 'StratLP',
+    addLiquidityUrl:
+      'https://traderjoexyz.com/pool/0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664/0xB3155f0aeCb53f05B63c408bAB97f7565014b147#/',
+    buyTokenUrl:
+      'https://traderjoexyz.com/trade?inputCurrency=0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664&outputCurrency=0xB3155f0aeCb53f05B63c408bAB97f7565014b147#/',
+  },
 ];
