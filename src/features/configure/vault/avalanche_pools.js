@@ -235,4 +235,33 @@ export const avalanchePools = [
     buyTokenUrl:
       'https://traderjoexyz.com/trade?inputCurrency=0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E&outputCurrency=0x83c7412931398502922a35911E5Fab221822f4B6#/',
   },
+  {
+    id: 'hero-hero-usdc',
+    name: 'HERO - USDC.e 🔥',
+    token: 'HERO - USDC.e 🔥',
+    tokenDescription: 'herofinance.tech - HERO - USDC.e LP AC Auto Burn Vault 🔥',
+    tokenAddress: '0x220CBe84004F6519720459435491EE8124E67084',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'MagikFarm - HERO - USDC.e',
+    earnedTokenAddress: '0xccB0e83cEa572CA766FFb57BF69d09D452F659Db',
+    earnContractAddress: '0xccB0e83cEa572CA766FFb57BF69d09D452F659Db',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'hero-hero-usdc',
+    oraclePrice: 0,
+    depositsPaused: false,
+    partnership: true,
+    isMooStaked: true,
+    status: 'active',
+    platform: 'JOE',
+    assets: ['HERO', 'USDC'],
+    risks: ['COMPLEXITY_LOW', 'BATTLE_TESTED', 'IL_LOW', '5AUDIT', 'CONTRACTS_VERIFIED'],
+    stratType: 'StratLP',
+    addLiquidityUrl:
+      'https://traderjoexyz.com/pool/0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664/0x4341eea753C2cb129e478dEF09C8C973E67Aa51a#/',
+    buyTokenUrl:
+      'https://traderjoexyz.com/trade?inputCurrency=0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664&outputCurrency=0x4341eea753C2cb129e478dEF09C8C973E67Aa51a#/',
+  },
 ];

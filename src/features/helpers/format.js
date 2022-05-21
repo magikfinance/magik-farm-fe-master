@@ -3,7 +3,7 @@ import BigNumber from 'bignumber.js';
 const units = ['', 'k', 'M', 'B', 'T', 'Q', 'Q', 'S', 'S'];
 
 export const formatApy = (apy, dp = 2) => {
-  if (!apy) return `???`;
+  if (!apy) return `🔥`;
 
   apy *= 100;
 
@@ -42,7 +42,7 @@ export const formatTvl = (tvl, oraclePrice, useOrder = true) => {
 export const formatGlobalTvl = tvl => formatTvl(tvl, 1);
 
 export const calcDaily = apy => {
-  if (!apy) return `???`;
+  if (!apy) return `🔥`;
 
   const g = Math.pow(10, Math.log10(apy + 1) / 365) - 1;
   if (isNaN(g)) {
