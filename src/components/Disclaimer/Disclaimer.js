@@ -17,7 +17,9 @@ const Disclaimer = () => {
       <Typography className={classes.disclaimer}>
         {t('Disclaimer')}
         <br />
-        Magik AC was not affected by any exploits. Forked from BIFI.{' '}
+        Magik Farm vaults are based on beefy’s battle tested code and have not been affected by any exploits. 
+
+3rd party vault listings on Magik Farm are provided at request, and should not be construed as an endorsement of the underlying protocol. The Magik team and its associated projects are not liable for loss of funds.{' '}
         {/* <a
           target="_blank"
           rel="noopener noreferrer"
