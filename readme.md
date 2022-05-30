@@ -1,8 +1,8 @@
-# BombFarm (\$BIFI)
+# magikfarm (\$MAGIK)
 
 ## Overview
 
-Official frontend repo of [beefy.finance](https://www.bomb.farm). Multichain yield farming optimizer.
+Official frontend repo of [magik.farm](https://www.magik.farm). Multichain yield farming optimizer.
 
 ## Env
 
