@@ -121,10 +121,10 @@ export const avalanchePools = [
   },
   {
     id: 'joe-wlrs-usdc',
-    name: 'WLRS - USDC 3% Withdrawal Fee🔥',
-    token: 'WLRS - USDC 3% Withdrawal Fee🔥',
+    name: 'WLRS - USDC.e 3% Withdrawal Fee🔥',
+    token: 'WLRS - USDC.e 3% Withdrawal Fee🔥',
     tokenDescription:
-      'frozenwalrus.finance  3% WITHDRAWAL FEE - WLRS - USDC LP AC Auto Burn Vault 🔥',
+      'frozenwalrus.finance  3% WITHDRAWAL FEE - WLRS - USDC.e LP AC Auto Burn Vault 🔥',
     tokenAddress: '0x82845B52b53c80595bbF78129126bD3E6Fc2C1DF',
     tokenDecimals: 18,
     tokenDescriptionUrl: '#',
@@ -151,9 +151,9 @@ export const avalanchePools = [
   },
   {
     id: 'joe-wshare-usdc',
-    name: 'WSHARE - USDC 3% Withdrawal Fee🔥',
-    token: 'WSHARE - USDC 3% Withdrawal Fee🔥',
-    tokenDescription: 'frozenwalrus.finance  4% WITHDRAWAL FEE - WSHARE - USDC LP AC  Vault 🔥',
+    name: 'WSHARE - USDC.e 3% Withdrawal Fee🔥',
+    token: 'WSHARE - USDC.e 3% Withdrawal Fee🔥',
+    tokenDescription: 'frozenwalrus.finance  3% WITHDRAWAL FEE - WSHARE - USDC.e LP AC  Vault 🔥',
     tokenAddress: '0x03d15E0451e54Eec95ac5AcB5B0a7ce69638c62A',
     tokenDecimals: 18,
     tokenDescriptionUrl: '#',
