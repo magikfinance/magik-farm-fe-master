@@ -1,1 +1,31 @@
-export const cronosPools = [];
+export const cronosPools = [
+  {
+    id: 'darkcrystl-darkcrystl-wcro',
+    name: 'DARKCRYSTL-WCRO LP🔥',
+    token: 'DARKCRYSTL-WCRO LP',
+    tokenDescription: 'cronos.darkcrystl.com - DARKCRYSTL-WCRO LP AC Auto Burn Vault 🔥',
+    tokenAddress: '0x59505978Dcdb0c820ECf6486AFEB9b2Baa58Ff49',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'Magikfarm - DARKCRYSTL-WCRO LP',
+    earnedTokenAddress: '0x0344Eff412334A1Cd978507CF3CF9EB667E8Df1b',
+    earnContractAddress: '0x0344Eff412334A1Cd978507CF3CF9EB667E8Df1b',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'darkcrystl-darkcrystl-wcro',
+    oraclePrice: 0,
+    depositsPaused: false,
+    partnership: true,
+    isMooStaked: true,
+    status: 'active',
+    platform: 'SpiritSwap',
+    assets: ['DARKCRYSTL', 'CRO'],
+    risks: ['COMPLEXITY_LOW', 'BATTLE_TESTED', 'IL_LOW', 'AUDIT', 'CONTRACTS_VERIFIED'],
+    stratType: 'StratLP',
+    addLiquidityUrl:
+      'https://mm.finance/add/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/0xEfA1FABC2AB6219174aD1c912F56f7de53cDc1E1',
+    buyTokenUrl:
+      'https://mm.finance/swap?outputCurrency=0xEfA1FABC2AB6219174aD1c912F56f7de53cDc1E1',
+  },
+];

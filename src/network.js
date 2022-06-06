@@ -37,12 +37,12 @@ export const allNetworks = [
     id: 1313161554,
     hash: '/aurora',
   },
-  // {
-  //   name: 'CRONOS',
-  //   asset: 'CRONOS',
-  //   id: 25,
-  //   hash: '/cronos',
-  // },
+  {
+    name: 'CRONOS',
+    asset: 'CRONOS',
+    id: 25,
+    hash: '/cronos',
+  },
   // {
   //   name: 'CELO',
   //   asset: 'CELO',
