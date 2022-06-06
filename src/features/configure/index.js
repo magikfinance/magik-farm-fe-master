@@ -8,6 +8,7 @@ const {
   bsc: bscAddressBook,
   fantom: fantomAddressBook,
   one: harmonyAddressBook,
+  aurora: auroraAddressBook,
   arbitrum: arbitrumAddressBook,
   moonriver: moonriverAddressBook,
   cronos: cronosAddressBook,
@@ -18,6 +19,7 @@ export {
   celoAddressBook,
   avaxAddressBook,
   polygonAddressBook,
+  auroraAddressBook,
   fantomAddressBook,
   harmonyAddressBook,
   arbitrumAddressBook,
@@ -54,6 +56,9 @@ export { celoPools } from './vault/celo_pools';
 export { moonriverPools } from './vault/moonriver_pools';
 export { polygonPools } from './vault/polygon_pools';
 export { fantomPools } from './vault/fantom_pools';
+export { auroraStakePools } from './stake/aurora_stake';
+export { auroraPools } from './vault/aurora_pools';
+export { auroraZaps } from './zap/aurora_zaps';
 export { harmonyPools } from './vault/harmony_pools';
 export { arbitrumPools } from './vault/arbitrum_pools';
 export { cronosPools } from './vault/cronos_pools';

@@ -7,6 +7,10 @@ import {
   avalancheStakePools,
   avaxAddressBook,
   avalancheZaps,
+  auroraPools,
+  auroraStakePools,
+  auroraAddressBook,
+  auroraZaps,
   bscPools,
   bscStakePools,
   bscAddressBook,
@@ -61,6 +65,7 @@ const networkTxUrls = {
   42220: hash => `https://explorer.celo.org/tx/${hash}`,
   1285: hash => `https://moonriver.moonscan.io/tx/${hash}`,
   25: hash => `https://cronos.crypto.org/explorer/tx/${hash}`,
+  1313161554: hash => `https://explorer.mainnet.aurora.dev/tx/${hash}`,
 };
 
 const networkFriendlyName = {
@@ -74,6 +79,7 @@ const networkFriendlyName = {
   42220: 'Celo',
   1285: 'Moonriver',
   25: 'Cronos',
+  1313161554: 'Aurora',
 };
 
 const networkBuyUrls = {
@@ -91,6 +97,7 @@ const networkBuyUrls = {
     'https://app.sushi.com/swap?inputCurrency=0x471ece3750da237f93b8e339c536989b8978a438&outputCurrency=0x639a647fbe20b6c8ac19e48e2de44ea792c62c5c',
   1285: 'https://app.sushi.com/swap?inputCurrency=0x173fd7434b8b50df08e3298f173487ebdb35fd14&outputCurrency=0xf50225a84382c74cbdea10b0c176f71fc3de0c4d',
   25: 'https://vvs.finance/swap?inputCurrency=0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23&outputCurrency=0xe6801928061cdbe32ac5ad0634427e140efd05f9',
+  1313161554: '',
 };
 
 export const getNetworkCoin = () => {
@@ -119,6 +126,8 @@ export const getNetworkPools = () => {
       return moonriverPools;
     case 25:
       return cronosPools;
+    case 1313161554:
+      return auroraPools;
     default:
       return [];
   }
@@ -146,6 +155,8 @@ export const getNetworkVaults = (networkId = appNetworkId) => {
       return indexBy(moonriverPools, 'id');
     case 25:
       return indexBy(cronosPools, 'id');
+    case 1313161554:
+      return indexBy(auroraPools, 'id');
     default:
       return {};
   }
@@ -173,6 +184,8 @@ export const getNetworkLaunchpools = (networkId = appNetworkId) => {
       return indexBy(moonriverStakePools, 'id');
     case 25:
       return indexBy(cronosStakePools, 'id');
+    case 1313161554:
+      return indexBy(auroraStakePools, 'id');
     default:
       return {};
   }
@@ -201,6 +214,8 @@ export const getNetworkTokens = () => {
       return moonriverAddressBook.tokens;
     case 25:
       return cronosAddressBook.tokens;
+    case 1313161554:
+      return auroraAddressBook.tokens;
     default:
       throw new Error(
         `Create address book for chainId(${chainId}) first. Check out https://github.com/beefyfinance/address-book`
@@ -241,6 +256,8 @@ export const getNetworkBurnTokens = () => {
       return {};
     case 25:
       return {};
+    case 1313161554:
+      return {};
     default:
       throw new Error(`Create address book for this chainId first.`);
   }
@@ -268,6 +285,8 @@ export const getNetworkZaps = () => {
       return moonriverZaps;
     case 25:
       return cronosZaps;
+    case 1313161554:
+      return auroraZaps;
     default:
       return [];
   }
@@ -341,6 +360,8 @@ export const getNetworkStables = () => {
       return ['USDC', 'USDT', 'DAI', 'BUSD', 'MAI', 'MIM', 'FRAX'];
     case 25:
       return ['USDC', 'USDT', 'DAI', 'BUSD'];
+    case 1313161554:
+      return ['USDC', 'USDT'];
     default:
       return [];
   }
@@ -368,6 +389,8 @@ export const getNetworkMulticall = () => {
       return '0x7f6fE34C51d5352A0CF375C0Fbe03bD19eCD8460';
     case 25:
       return '0x13aD51a6664973EbD0749a7c84939d973F247921';
+    case 1313161554:
+      return '0x55f46144bC62e9Af4bAdB71842B62162e2194E90';
     default:
       return '';
   }
@@ -600,6 +623,19 @@ export const getNetworkConnectors = t => {
     case 25:
       return {
         network: 'cronos',
+        cacheProvider: true,
+        providerOptions: {
+          injected: {
+            display: {
+              name: 'Injected',
+              description: t('Home-BrowserWallet'),
+            },
+          },
+        },
+      };
+    case 1313161554:
+      return {
+        network: 'aurora',
         cacheProvider: true,
         providerOptions: {
           injected: {

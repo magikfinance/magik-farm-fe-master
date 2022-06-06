@@ -3,6 +3,7 @@ import { bscPools } from '../src/features/configure/vault/bsc_pools.js';
 import { avalanchePools } from '../src/features/configure/vault/avalanche_pools.js';
 // import { polygonPools } from '../src/features/configure/vault/polygon_pools.js';
 import { fantomPools } from '../src/features/configure/vault/fantom_pools.js';
+import { auroraPools } from '../src/features/configure/vault/aurora_pools.js';
 // import { harmonyPools } from '../src/features/configure/vault/harmony_pools.js';
 // import { arbitrumPools } from '../src/features/configure/vault/arbitrum_pools.js';
 // import { celoPools } from '../src/features/configure/vault/celo_pools.js';
@@ -15,6 +16,7 @@ export const chainPools = {
   avax: avalanchePools,
   // polygon: polygonPools,
   fantom: fantomPools,
+  aurora: auroraPools,
   // one: harmonyPools,
   // arbitrum: arbitrumPools,
   // celo: celoPools,
@@ -28,6 +30,7 @@ export const chainRpcs = {
   avax: process.env.AVAX_RPC || 'https://api.avax.network/ext/bc/C/rpc',
   // polygon: process.env.POLYGON_RPC || 'https://polygon-rpc.com',
   fantom: process.env.FANTOM_RPC || 'https://rpc.ftm.tools/',
+  aurora: process.env.AURORA_RPC || 'https://mainnet.aurora.dev/',
   // one: process.env.HARMONY_RPC || 'https://api.s0.t.hmny.io/',
   // arbitrum: process.env.ARBITRUM_RPC || 'https://arb1.arbitrum.io/rpc',
   // celo: process.env.CELO_RPC || 'https://forno.celo.org',

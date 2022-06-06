@@ -56,6 +56,14 @@ export const nativeCoins = [
     allowance: Infinity,
   },
   {
+    chainId: 1313161554,
+    name: 'Aurora',
+    symbol: 'ETH',
+    decimals: 18,
+    wrappedSymbol: 'WETH',
+    allowance: Infinity,
+  },
+  {
     chainId: 1666600000,
     name: 'Harmony',
     symbol: 'ONE',

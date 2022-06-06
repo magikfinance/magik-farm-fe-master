@@ -65,6 +65,17 @@ export const networkSettings = {
     rpcUrls: ['https://rpc.ftm.tools'],
     blockExplorerUrls: ['https://ftmscan.com/'],
   },
+  1313161554: {
+    chainId: `0x${parseInt(1313161554, 10).toString(16)}`,
+    chainName: 'Aurora Mainnet',
+    nativeCurrency: {
+      name: 'ETH',
+      symbol: 'ETH',
+      decimals: 18,
+    },
+    rpcUrls: ['https://mainnet.aurora.dev/'],
+    blockExplorerUrls: ['https://explorer.mainnet.aurora.dev/'],
+  },
   // 1666600000: {
   //   chainId: `0x${parseInt(1666600000, 10).toString(16)}`,
   //   chainName: 'Harmony One',

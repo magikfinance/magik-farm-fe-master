@@ -31,6 +31,12 @@ export const allNetworks = [
     id: 56,
     hash: '/bsc',
   },
+  {
+    name: 'AURORA',
+    asset: 'AURORA',
+    id: 1313161554,
+    hash: '/aurora',
+  },
   // {
   //   name: 'CRONOS',
   //   asset: 'CRONOS',
