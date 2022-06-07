@@ -17,13 +17,13 @@ const styles = theme => ({
   },
   container: {
     position: 'relative',
-    backgroundColor: 'rgba(0,0,0,0.1)',//theme.palette.background.extra,
-    "backdrop-filter": 'blur(300px)',
-    padding: '24px',
+    backgroundColor: '#6f42c1', //theme.palette.background.extra,
+    'backdrop-filter': 'blur(300px)',
+    padding: '56px',
     border: '1px solid ' + theme.palette.background.border,
   },
   heading: {
-    color: theme.palette.primary.main,
+    color: '#6f42c1',
   },
   summary: {
     paddingTop: '24px',
@@ -39,11 +39,11 @@ const styles = theme => ({
       pool.status === 'eol'
         ? theme.palette.background.retired
         : pool.depositsPaused
-          ? theme.palette.background.paused
-          : theme.palette.background.primary,
+        ? theme.palette.background.paused
+        : theme.palette.background.primary,
   },
   description: {
-    padding: '8px',
+    padding: '12px',
   },
   item: {
     marginBottom: '20px',
@@ -54,7 +54,7 @@ const styles = theme => ({
   },
   itemTitle: {
     [theme.breakpoints.up('sm')]: {
-      flexBasis: '50%',
+      flexBasis: '25%',
       maxWidth: '50%',
     },
     [theme.breakpoints.up('md')]: {
@@ -82,7 +82,7 @@ const styles = theme => ({
   },
   itemStats: {
     [theme.breakpoints.up('md')]: {
-      flexBasis: '11%',
+      flexBasis: '50%',
       maxWidth: '11%',
     },
     [theme.breakpoints.up('lg')]: {

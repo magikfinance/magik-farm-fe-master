@@ -16,7 +16,7 @@ const styles = theme => ({
   substat: {
     fontSize: '16px',
     fontWeight: '400',
-    color: theme.palette.text.secondary,
+    color: theme.palette.text.primary,
     width: '100%',
     textAlign: 'center',
     position: 'absolute',

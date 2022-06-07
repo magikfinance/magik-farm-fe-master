@@ -1,9 +1,9 @@
 const styles = theme => ({
   container: {
     marginBottom: '24px',
-    backgroundColor: 'rgba(0,0,0, 0.1)',
+    backgroundColor: '#6f42c1',
     backdropFilter: 'blur(30px)',
-    borderRadius: '8px',
+    borderRadius: '20px',
     border: '1px solid rgba(255,255,255, 0.25)',
   },
   accordion: {

@@ -15,7 +15,7 @@ export default theme => ({
   },
   feature: {
     padding: '24px 15px 0 15px',
-    color: theme.palette.text.primary,
+    color: '#6f42c1',
     fontWeight: 700,
     width: '100%',
     [theme.breakpoints.up('sm')]: {

@@ -190,7 +190,7 @@ const styles = theme => ({
     fontWeight: 'bold',
     cursor: 'pointer',
     '&:hover': {
-      color: theme.palette.text.secondary,
+      color: theme.palette.text.primary,
       textDecoration: 'underline',
     },
   },

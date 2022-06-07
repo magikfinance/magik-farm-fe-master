@@ -1,7 +1,7 @@
 $gray-lighter: rgba($black, 0.12) !default;
-$gray-light: #999 !default;
+$gray-light: rgb(255, 255, 255) !default;
 $gray-alpha: 0.54 !default;
-$gray: #555 !default; // spec color
+$gray: rgb(255, 222, 222) !default; // spec color
 $gray-dark: rgba(
   $black,
   0.87

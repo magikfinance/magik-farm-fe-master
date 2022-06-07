@@ -3,7 +3,7 @@ const styles = theme => ({
     padding: '24px',
     margin: '8px 0 2rem',
     border: '1px solid ' + theme.palette.background.border,
-    backgroundColor: theme.palette.background.primary,
+    backgroundColor: '#6f42c1',
     justifyContent: 'space-between',
     position: 'relative',
   },

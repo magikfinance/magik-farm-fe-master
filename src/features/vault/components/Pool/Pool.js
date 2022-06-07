@@ -33,9 +33,9 @@ const Pool = ({
   const balanceSingle = byDecimals(tokens[pool.token].tokenBalance, pool.tokenDecimals);
   const sharesBalance = tokens[pool.earnedToken].launchpoolTokenBalance
     ? new BigNumber.sum(
-      tokens[pool.earnedToken].launchpoolTokenBalance,
-      tokens[pool.earnedToken].tokenBalance
-    )
+        tokens[pool.earnedToken].launchpoolTokenBalance,
+        tokens[pool.earnedToken].tokenBalance
+      )
     : new BigNumber(tokens[pool.earnedToken].tokenBalance);
   const launchpoolId = useSelector(state => state.vault.vaultLaunchpool[pool.id]);
   const launchpool = launchpoolId ? launchpools[launchpoolId] : null;
@@ -54,7 +54,7 @@ const Pool = ({
   }, [subscribe, activeLaunchpools]);
 
   return (
-    <Grid item xs={12} container key={index} className={classes.container} spacing={0}>
+    <Grid item xs={12} container key={index} className={classes.container} spacing={50}>
       <Accordion
         expanded={isOpen}
         className={classes.accordion}

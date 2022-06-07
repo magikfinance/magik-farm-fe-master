@@ -8,7 +8,7 @@ import { auroraPools } from '../src/features/configure/vault/aurora_pools.js';
 // import { arbitrumPools } from '../src/features/configure/vault/arbitrum_pools.js';
 // import { celoPools } from '../src/features/configure/vault/celo_pools.js';
 // import { moonriverPools } from '../src/features/configure/vault/moonriver_pools.js';
-// import { cronosPools } from '../src/features/configure/vault/cronos_pools.js';
+import { cronosPools } from '../src/features/configure/vault/cronos_pools.js';
 
 export const chainPools = {
   bsc: bscPools,

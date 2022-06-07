@@ -57,4 +57,33 @@ export const cronosPools = [
     buyTokenUrl:
       'https://mm.finance/swap?outputCurrency=0x0944d9a8Dea16af1170c51E8DD3921C727A06cBd',
   },
+  {
+    id: 'darkcrystl-darkcrystl-mine',
+    name: 'DARKCRYSTL-MINE LP🔥',
+    token: 'DARKCRYSTL-MINE LP',
+    tokenDescription: 'cronos.darkcrystl.com - DARKCRYSTL-MINE LP AC Auto Fee Share Vault 🔥',
+    tokenAddress: '0xbe4C7893e79028f4956307d2efD2cf8230360c70',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'Magikfarm -DARKCRYSTL-MINE LP',
+    earnedTokenAddress: '0x515bAF9CbB69A7E9188C526c809f504d87C6C085',
+    earnContractAddress: '0x515bAF9CbB69A7E9188C526c809f504d87C6C085',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'DARKCRYSTL-MINE LP',
+    oraclePrice: 0,
+    depositsPaused: false,
+    partnership: true,
+    isMooStaked: true,
+    status: 'active',
+    platform: 'Darkcrystl',
+    assets: ['DARKCRYSTL', 'MINE'],
+    risks: ['COMPLEXITY_LOW', 'BATTLE_TESTED', 'IL_LOW', 'AUDIT', 'CONTRACTS_VERIFIED'],
+    stratType: 'StratLP',
+    addLiquidityUrl:
+      'https://mm.finance/add/0xEfA1FABC2AB6219174aD1c912F56f7de53cDc1E1/0x0944d9a8Dea16af1170c51E8DD3921C727A06cBd',
+    buyTokenUrl:
+      'https://spookyswap.finance/swap?outputCurrency=0xEfA1FABC2AB6219174aD1c912F56f7de53cDc1E1&inputCurrency=0x0944d9a8Dea16af1170c51E8DD3921C727A06cBd',
+  },
 ];

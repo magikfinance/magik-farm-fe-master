@@ -68,7 +68,7 @@ const styles = theme => ({
   subtitle: {
     fontSize: '14px',
     fontWeight: '400',
-    color: theme.palette.text.secondary,
+    color: theme.palette.text.primary,
     lineHeight: '20px',
     letterSpacing: 0,
   },

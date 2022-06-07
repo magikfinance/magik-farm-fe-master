@@ -7,7 +7,7 @@ const styles = {
     padding: '20px 15px',
     lineHeight: '20px',
     marginBottom: '20px',
-    fontSize: '14px',
+    fontSize: '24px',
     // backgroundColor: 'white',
     color: grayColor[15],
     borderRadius: '3px',

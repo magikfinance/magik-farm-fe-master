@@ -5,7 +5,7 @@ const styles = theme => ({
   title: {
     fontSize: '18px',
     fontWeight: 'bold',
-    color: theme.palette.text.primary,
+    color: '#6f42c1',
     lineHeight: '18px',
     letterSpacing: 0,
     minWidth: '150px',
@@ -13,7 +13,7 @@ const styles = theme => ({
   subtitle: {
     fontSize: '14px',
     fontWeight: '400',
-    color: theme.palette.text.secondary,
+    color: theme.palette.text.primary,
     lineHeight: '14px',
     letterSpacing: 0,
   },

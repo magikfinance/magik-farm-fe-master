@@ -87,8 +87,8 @@ const PoolDetails = ({ vaultId }) => {
       pool.status === 'eol'
         ? t(getRetireReason(pool.retireReason))
         : pool.depositsPaused
-          ? t('Vault-DepositsPausedTitle')
-          : null;
+        ? t('Vault-DepositsPausedTitle')
+        : null;
 
     if (launchpool) {
       state = t('Stake-BoostedBy', { name: launchpool.name });
@@ -153,10 +153,10 @@ const PoolDetails = ({ vaultId }) => {
       <HomeLink />
       {vaultId === 'cake-cakev2' ? <CakeV2Banner /> : ''}
       <div className={classes.container}>
-        <Grid container alignItems="center" style={{ paddingTop: '20px' }}>
+        <Grid container alignItems="center" style={{ paddingTop: '40px' }}>
           {vaultStateTitle}
           <PoolBoosts poolName={pool.name} earnedTokenAddress={pool.earnedTokenAddress} />
-          <Grid item xs={12} className={`${classes.item} ${classes.itemTitle}`}>
+          <Grid item xs={24} className={`${classes.item} ${classes.itemTitle}`}>
             <PoolTitle
               name={pool.name}
               logo={pool.logo}

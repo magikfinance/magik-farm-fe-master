@@ -25,7 +25,7 @@ const styles = theme => ({
     [theme.breakpoints.down('xs')]: {
       lineHeight: '16px',
     },
-    color: theme.palette.text.secondary,
+    color: theme.palette.text.primary,
     marginTop: '0',
   },
   text: {
