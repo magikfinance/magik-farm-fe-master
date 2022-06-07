@@ -71,7 +71,7 @@ export const cronosPools = [
     pricePerFullShare: 1,
     tvl: 0,
     oracle: 'lps',
-    oracleId: 'DARKCRYSTL-MINE LP',
+    oracleId: 'darkcrystl-darkcrystl-mine',
     oraclePrice: 0,
     depositsPaused: false,
     partnership: true,
