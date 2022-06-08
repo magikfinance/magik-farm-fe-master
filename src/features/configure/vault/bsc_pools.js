@@ -62,9 +62,10 @@ export const bscPools = [
       'CONTRACTS_VERIFIED',
     ],
     stratType: 'StratLP',
-    addLiquidityUrl: 'https://orbitalswap.com/add/BNB/0x42b98A2f73a282D731b0B8F4ACfB6cAF3565496B',
+    addLiquidityUrl:
+      'https://orbitalswap.com/add/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56',
     buyTokenUrl:
-      'https://orbitalswap.com/swap?outputCurrency=0x42b98A2f73a282D731b0B8F4ACfB6cAF3565496B',
+      'https://orbitalswap.com/swap?outputCurrency=0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56',
     createdAt: 1648773316,
   },
   {
