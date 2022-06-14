@@ -71,46 +71,48 @@ export default function Pools() {
 
   return (
     <Grid container className={classes.container}>
-      <Grid item xs={6}>
-        <h1 className={classes.title}>{t('Vault-Network')}</h1>
-        <NetworksToggle />
-        {fetchVaultsDataDone && activePoolCount && (
-          <>
-            <h2 className={classes.title}> {`${activePoolCount} ${t('Vault-MainTitle')}`}</h2>
-          </>
-        )}
-      </Grid>
-      <Grid item xs={6}>
-        <div className={classes.tvl}>
-          <span className={classes.title}>
-            TVL{' '}
-            {fetchVaultsDataDone && poolsTvl > 0 ? (
-              formatGlobalTvl(poolsTvl)
-            ) : (
-              <TVLLoader className={classes.titleLoader} />
-            )}
-          </span>
+      <Grid container className={classes.infoContainer}>
+        <Grid item xs={6}>
+          <h1 className={classes.title}>{t('Vault-Network')}</h1>
+          <NetworksToggle />
+          {/* {fetchVaultsDataDone && activePoolCount && (
+            <>
+              <h2 className={classes.title}> {`${activePoolCount} ${t('Vault-MainTitle')}`}</h2>
+            </>
+          )} */}
+        </Grid>
+        <Grid item xs={6}>
+          <div className={classes.tvl}>
+            <span className={classes.totalTvl}>
+              TOTAL TVL{' '}
+              {fetchVaultsDataDone && poolsTvl > 0 ? (
+                formatGlobalTvl(poolsTvl)
+              ) : (
+                <TVLLoader className={classes.titleLoader} />
+              )}
+            </span>
 
-          {/* {fetchBifibuybackDone && chainBifibuyback && (
+            {/* {fetchBifibuybackDone && chainBifibuyback && (
             <span className={classes.text}>
               {t('Vault-BifiBuyback', { amount: formatGlobalTvl(chainBifibuyback) })}
             </span>
           )} */}
 
-          <span className={classes.text}>
-            {t('Vault-Deposited')}{' '}
-            {fetchVaultsDataDone && fetchBalancesDone ? (
-              formatGlobalTvl(userTvl)
-            ) : (
-              <TVLLoader className={classes.titleLoader} />
-            )}
-          </span>
+            <span className={classes.deposited}>
+              {t('Vault-Deposited')}{' '}
+              {fetchVaultsDataDone && fetchBalancesDone ? (
+                formatGlobalTvl(userTvl)
+              ) : (
+                <TVLLoader className={classes.titleLoader} />
+              )}
+            </span>
 
-          <h4 className={classes.subtitle} style={{ marginTop: '16px' }}>
-            <AllInclusiveIcon className={classes.infinityIcon} />
-            {t('Vault-AutocompoundingNote')}
-          </h4>
-        </div>
+            <h4 className={classes.subtitle} style={{ marginTop: '16px' }}>
+              <AllInclusiveIcon className={classes.infinityIcon} />
+              {t('Vault-AutocompoundingNote')}
+            </h4>
+          </div>
+        </Grid>
       </Grid>
 
       <VisiblePools

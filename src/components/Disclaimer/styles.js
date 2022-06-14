@@ -7,12 +7,13 @@ const styles = theme => ({
     textAlign: 'center',
   },
   disclaimer: {
-    padding: '24px',
+    padding: '32px 32px 32px 42px',
     borderRadius: '12px',
     background: theme.palette.background.paused,
     marginBottom: '2rem',
     fontWeight: 900,
     color: theme.palette.text.primary,
+    fontFamily: 'Open Sans',
   },
 });
 

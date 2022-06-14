@@ -2,13 +2,29 @@ const styles = theme => ({
   container: {
     paddingTop: '4px',
   },
+  infoContainer: {
+    padding: '24px',
+    borderRadius: '12px',
+    background: theme.palette.background.paused,
+    marginBottom: '2rem',
+    fontWeight: 900,
+    color: theme.palette.text.primary,
+  },
   tvl: {
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'flex-end',
   },
-  title: {
+  totalTvl: {
+    fontFamily: "'Bebas Neue', sans-serif",
+    fontSize: '64px',
+  },
+  deposited: {
+    fontFamily: theme.fonts.highlight,
     fontSize: '32px',
+  },
+  title: {
+    fontSize: '24px',
     letterSpacing: '0',
     lineHeight: '32px',
     fontWeight: '550',

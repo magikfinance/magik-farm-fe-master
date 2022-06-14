@@ -3,6 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import { getSingleAssetSrc } from '../../features/helpers/getSingleAssetSrc';
 import NetworksModal from '../NetworksModal/NetworksModal';
 import { allNetworks } from '../../network';
+import MuiArrowDown from '@material-ui/icons/ArrowDropDown';
 import styles from './styles';
 
 const useStyles = makeStyles(styles);
@@ -30,6 +31,7 @@ const NetworksToggle = memo(function () {
           <div className={classes.connected} />
           <p className={classes.networkName}>{currentNetwork.name}</p>
         </div>
+        <MuiArrowDown className={classes.arrowIcon} />
       </div>
       <NetworksModal isOpen={isOpen} handleClose={handleClose} currentNetwork={currentNetwork} />
     </>
