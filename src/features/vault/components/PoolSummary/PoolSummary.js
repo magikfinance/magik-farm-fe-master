@@ -38,8 +38,8 @@ const PoolSummary = ({
       pool.status === 'eol'
         ? t(getRetireReason(pool.retireReason))
         : pool.depositsPaused
-          ? t('Vault-DepositsPausedTitle')
-          : null;
+        ? t('Vault-DepositsPausedTitle')
+        : null;
 
     if (launchpool) {
       state = t('Stake-BoostedBy', { name: launchpool.name });
@@ -83,13 +83,13 @@ const PoolSummary = ({
         pool.status === 'eol'
           ? classes.detailsRetired
           : pool.depositsPaused
-            ? classes.detailsPaused
-            : classes.details
+          ? classes.detailsPaused
+          : classes.details
       }
       style={{ justifyContent: 'space-between' }}
       onClick={onSummaryClick}
     >
-      <Grid container alignItems="center" style={{ paddingTop: '20px', borderRadius: '8px' }}>
+      <Grid container alignItems="flex-start" style={{ paddingTop: '20px', borderRadius: '8px' }}>
         {vaultStateTitle}
         <PoolBoosts poolName={pool.name} earnedTokenAddress={pool.earnedTokenAddress} />
         <Grid item xs={12} className={`${classes.item} ${classes.itemTitle}`}>
@@ -106,7 +106,7 @@ const PoolSummary = ({
             multipleLaunchpools={multipleLaunchpools}
           />
         </Grid>
-        <Grid item xs={6} className={`${classes.item} ${classes.itemBalances}`}>
+        <Grid item xs={6} className={`${classes.infoItem} ${classes.itemBalances}`}>
           <LabeledStat
             value={formatDecimals(balanceSingle)}
             subvalue={balanceUsd}
@@ -115,7 +115,7 @@ const PoolSummary = ({
             className={classes.itemInner}
           />
         </Grid>
-        <Grid item xs={6} className={`${classes.item} ${classes.itemBalances}`}>
+        <Grid item xs={6} className={`${classes.infoItem} ${classes.itemBalances}`}>
           <LabeledStat
             value={formatDecimals(deposited)}
             subvalue={depositedUsd}
@@ -128,10 +128,10 @@ const PoolSummary = ({
           apy={apy}
           launchpoolApr={launchpoolApr}
           isLoading={!fetchApysDone}
-          itemClasses={`${classes.item} ${classes.itemStats}`}
+          itemClasses={`${classes.infoItem} ${classes.itemStats}`}
           itemInnerClasses={classes.itemInner}
         />
-        <Grid item xs={4} className={`${classes.item} ${classes.itemStats}`}>
+        <Grid item xs={4} className={`${classes.infoItem} ${classes.itemStats}`}>
           <LabeledStat
             value={formatTvl(pool.tvl || 0, pool.oraclePrice)}
             label={t('Vault-TVL')}

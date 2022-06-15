@@ -6,7 +6,8 @@ const styles = theme => ({
     justifyContent: 'center',
   },
   stat: {
-    fontSize: '18px',
+    fontFamily: theme.fonts.highlight,
+    fontSize: '24px',
     fontWeight: 'bold',
     color: theme.palette.text.primary,
     lineHeight: '18px',
