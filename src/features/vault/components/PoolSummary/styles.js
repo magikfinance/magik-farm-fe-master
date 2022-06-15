@@ -27,7 +27,16 @@ const styles = theme => ({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  infoItem: {
+    marginTop: '24px',
+    marginBottom: '20px',
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
   itemTitle: {
+    fontFamily: theme.fonts.highlight,
     [theme.breakpoints.up('sm')]: {
       flexBasis: '50%',
       maxWidth: '50%',

@@ -67,7 +67,7 @@ export default function Pools() {
       ? bifibuyback[chainNameLowercase].buybackUsdAmount
       : undefined;
 
-  const activePoolCount = pools.filter(pool => pool.status === 'active').length;
+  // const activePoolCount = pools.filter(pool => pool.status === 'active').length;
 
   return (
     <Grid container className={classes.container}>

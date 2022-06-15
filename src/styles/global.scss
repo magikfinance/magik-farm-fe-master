@@ -1,8 +1,6 @@
-* {
+body {
   font-family: "Open Sans", sans-serif;
-  font-weight: 600;
   text-rendering: optimizeLegibility;
-  box-shadow: none !important;
 }
 
 .fa,
@@ -25,6 +23,21 @@ body {
 
   * {
     pointer-events: none;
+  }
+}
+
+.MuiAutocomplete-popper .MuiPaper-root,
+.MuiPaper-root.MuiMenu-paper {
+  background-color: white;
+  color: #242332;
+  border-radius: 10px;
+
+  .MuiButtonBase-root {
+    color: #242332;
+  }
+
+  li:hover {
+    background-color: rgba(0, 0, 0, 0.18);
   }
 }
 

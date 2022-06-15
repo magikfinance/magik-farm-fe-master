@@ -1,6 +1,7 @@
 import React, { memo, useCallback, useEffect, useMemo } from 'react';
 import Select from '@material-ui/core/Select';
 import MenuItem from '@material-ui/core/MenuItem';
+import { useMediaQuery, useTheme } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import { useTranslation } from 'react-i18next';
 import Grid from '@material-ui/core/Grid';
@@ -11,6 +12,8 @@ import InputLabel from '@material-ui/core/InputLabel';
 import Autocomplete from '@material-ui/lab/Autocomplete';
 import TextField from '@material-ui/core/TextField';
 import { Avatar, Box, Button } from '@material-ui/core';
+import CircleOutlinedIcon from '@material-ui/icons/RadioButtonUnchecked';
+import CheckCircleIcon from '@material-ui/icons/RadioButtonChecked';
 
 import styles from './styles';
 import { assets, platforms } from './constants';
@@ -28,6 +31,7 @@ const Filters = ({
   setVaultType,
   setAsset,
   setOrder,
+  poolCount,
 }) => {
   const { t } = useTranslation();
   const classes = useStyles();
@@ -75,15 +79,18 @@ const Filters = ({
 
   return (
     <Grid container spacing={2} className={classes.container}>
-      <Grid item xs={6} sm={4} md={3}>
-        <Button className={classes.reset} onClick={resetFilter}>
-          {t('Filters-Reset')}
-        </Button>
+      <Grid item xs={8} md={10} lg={3} className={classes.poolCount}>
+        <h2> {`${poolCount} ${t('Vault-MainTitle')}`}</h2>
+      </Grid>
+
+      <Grid item xs={6} sm={4} md={3} lg={2}>
         <FormControl>
           <FormControlLabel
             className={classes.label}
             control={
               <Checkbox
+                icon={<CircleOutlinedIcon />}
+                checkedIcon={<CheckCircleIcon />}
                 checked={filters.hideZeroBalances}
                 onChange={() => toggleFilter('hideZeroBalances')}
                 color="primary"
@@ -95,12 +102,14 @@ const Filters = ({
         </FormControl>
       </Grid>
 
-      <Grid item xs={6} sm={4} md={3}>
+      <Grid item xs={6} sm={4} md={3} lg={2}>
         <FormControl>
           <FormControlLabel
             className={classes.label}
             control={
               <Checkbox
+                icon={<CircleOutlinedIcon />}
+                checkedIcon={<CheckCircleIcon />}
                 checked={!filters.hideDecomissioned}
                 onChange={() => toggleFilter('hideDecomissioned')}
                 color="primary"
@@ -112,12 +121,14 @@ const Filters = ({
         </FormControl>
       </Grid>
 
-      <Grid item xs={6} sm={4} md={3}>
+      <Grid item xs={12} sm={4} md={6} lg={2}>
         <FormControl>
           <FormControlLabel
             className={classes.label}
             control={
               <Checkbox
+                icon={<CircleOutlinedIcon />}
+                checkedIcon={<CheckCircleIcon />}
                 checked={filters.hideZeroVaultBalances}
                 onChange={() => toggleFilter('hideZeroVaultBalances')}
                 color="primary"
@@ -129,8 +140,13 @@ const Filters = ({
         </FormControl>
       </Grid>
 
-      <Grid item xs={6} sm={4} md={3}>
-        {/* <FormControl>
+      <Grid item xs={4} md={2} className={classes.resetItem}>
+        <Button className={classes.reset} onClick={resetFilter}>
+          {t('Filters-Reset')}
+        </Button>
+      </Grid>
+      {/*<Grid item xs={6} sm={4} md={3}>
+         <FormControl>
           <FormControlLabel
             className={classes.label}
             control={
@@ -147,10 +163,10 @@ const Filters = ({
               </Box>
             }
           />
-        </FormControl> */}
-      </Grid>
+        </FormControl> 
+      </Grid>*/}
 
-      <Grid item xs={6} sm={4} md={3}>
+      <Grid item xs={6} md={3}>
         <FormControl className={classes.selectorContainer}>
           <InputLabel id="select-platform-label" className={classes.selectorLabel}>
             {t('Filters-Platform')}
@@ -174,7 +190,7 @@ const Filters = ({
         </FormControl>
       </Grid>
 
-      <Grid item xs={6} sm={4} md={3}>
+      <Grid item xs={6} md={3}>
         <FormControl className={classes.selectorContainer}>
           <InputLabel id="select-vault-type-label" className={classes.selectorLabel}>
             {t('Filters-Vault-Type')}
@@ -202,12 +218,12 @@ const Filters = ({
         </FormControl>
       </Grid>
 
-      <Grid item xs={6} sm={4} md={3}>
+      <Grid item xs={6} md={3}>
         <FormControl className={classes.selectorContainer}>
           <Autocomplete
+            ListboxProps={{ sx: { backgroundColor: 'white' } }}
             value={allAssetOptions.find(option => option.value === asset)}
             onChange={handleAssetChange}
-            className={classes.selector}
             id="select-asset"
             options={allAssetOptions}
             getOptionLabel={option => option.label}
@@ -215,6 +231,10 @@ const Filters = ({
               <TextField
                 {...params}
                 label={t('Filters-Asset')}
+                InputProps={{
+                  ...params.InputProps,
+                  className: `${params.InputProps.className} ${classes.selector}`,
+                }}
                 InputLabelProps={{
                   className: classes.selectorLabel,
                 }}
@@ -225,7 +245,7 @@ const Filters = ({
         </FormControl>
       </Grid>
 
-      <Grid item xs={6} sm={4} md={3}>
+      <Grid item xs={6} md={3}>
         <FormControl className={classes.selectorContainer}>
           <InputLabel id="select-order-label" className={classes.selectorLabel}>
             {t('Filters-Sort')}

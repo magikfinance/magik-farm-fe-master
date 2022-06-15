@@ -5,11 +5,23 @@ const styles = theme => ({
     backgroundColor: 'rgba(35, 38, 69, 0.71)',
     justifyContent: 'space-between',
     position: 'relative',
+    boxShadow: theme.shadow.card,
     borderRadius: '12px',
+    alignItems: 'center',
   },
 
   selectorContainer: {
     width: '100%',
+  },
+
+  poolCount: {
+    order: '-2',
+    '& h2': {
+      margin: '8px 0',
+      fontSize: '54px',
+      fontFamily: theme.fonts.highlight,
+      color: 'white',
+    },
   },
 
   selectorLabel: {
@@ -18,8 +30,22 @@ const styles = theme => ({
   },
 
   selector: {
-    padding: '0',
-    margin: '0',
+    minHeight: '46px',
+    padding: '4px 12px',
+    margin: '26px 0 0 !important',
+    border: 'solid 1px white',
+    borderRadius: '28px',
+    '&::before, &:hover::before, &:active::before, &::after': {
+      borderBottom: 'none !important',
+    },
+    '& svg, & div': {
+      right: '10px',
+      paddingBottom: '6px',
+    },
+  },
+
+  listBox: {
+    backgroundColor: 'white',
   },
 
   label: {
@@ -38,15 +64,19 @@ const styles = theme => ({
     },
   },
   reset: {
-    border: '1px solid ' + theme.palette.background.border,
-    padding: '4px 8px',
-    position: 'absolute',
-    top: '5px',
-    right: '5px',
-    backgroundColor: theme.palette.background.default,
+    padding: '10px 14px',
+    backgroundColor: 'white',
     '& .MuiButton-label': {
-      fontWeight: 'bold',
       textTransform: 'capitalize',
+      color: theme.palette.background.default,
+      fontFamily: theme.fonts.highlight,
+      fontSize: '20px',
+      lineHeight: '1.2',
+    },
+  },
+  resetItem: {
+    [theme.breakpoints.down('md')]: {
+      order: '-1',
     },
   },
 });
