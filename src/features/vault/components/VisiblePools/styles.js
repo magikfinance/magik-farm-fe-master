@@ -12,6 +12,10 @@ const styles = theme => ({
     fontWeight: '550',
     color: theme.palette.text.primary,
   },
+  showOverflow: {
+    overflow: 'visible !important',
+    boxShadow: 'none',
+  },
 });
 
 export default styles;

@@ -10,7 +10,7 @@
     "@davatar/react": "^1.8.1",
     "@ethersproject/solidity": "^5.1.0",
     "@material-ui/core": "^4.11.0",
-    "@material-ui/icons": "^4.9.1",
+    "@material-ui/icons": "^4.11.3",
     "@material-ui/lab": "^4.0.0-alpha.57",
     "@walletconnect/web3-provider": "^1.6.5",
     "axios": "^0.21.1",

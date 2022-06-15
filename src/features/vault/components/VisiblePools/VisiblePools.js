@@ -38,6 +38,8 @@ const VisiblePools = ({
 
   useLaunchpoolUpdates();
 
+  const activePoolCount = pools.filter(pool => pool.status === 'active').length;
+
   return (
     <>
       <Filters
@@ -51,9 +53,15 @@ const VisiblePools = ({
         setVaultType={setVaultType}
         setAsset={setAsset}
         setOrder={setOrder}
+        poolCount={activePoolCount}
       />
       <div className={classes.scroller}>
-        <InfiniteScroll dataLength={visiblePools.length} hasMore={true} next={fetchVisiblePools}>
+        <InfiniteScroll
+          dataLength={visiblePools.length}
+          hasMore={true}
+          next={fetchVisiblePools}
+          className={classes.showOverflow}
+        >
           {visiblePools.map((pool, index) => (
             <Pool
               pool={pool}

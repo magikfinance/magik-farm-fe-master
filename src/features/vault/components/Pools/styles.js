@@ -4,6 +4,7 @@ const styles = theme => ({
   },
   infoContainer: {
     padding: '24px',
+    boxShadow: theme.shadow.card,
     borderRadius: '12px',
     background: theme.palette.background.paused,
     marginBottom: '2rem',
@@ -37,12 +38,14 @@ const styles = theme => ({
   },
   subtitle: {
     letterSpacing: '0',
-    lineHeight: '8px',
+    lineHeight: '1.5',
+    textAlign: 'end',
     [theme.breakpoints.down('xs')]: {
       lineHeight: '16px',
     },
     color: theme.palette.text.primary,
     marginTop: '0',
+    fontWeight: 600,
   },
   text: {
     fontSize: '24px',

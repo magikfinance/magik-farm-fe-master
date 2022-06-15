@@ -32,6 +32,9 @@ const createThemeMode = isNightMode =>
       highlight: '"Bebas Neue", sans-serif',
       text: "'Open Sans', sans-serif",
     },
+    shadow: {
+      card: '0 6px 15px rgba(0, 0, 0, 0.25);',
+    },
     overrides: {
       MuiButton: {
         label: {
