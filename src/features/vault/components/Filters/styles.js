@@ -44,6 +44,10 @@ const styles = theme => ({
     },
   },
 
+  listBox: {
+    backgroundColor: 'white',
+  },
+
   label: {
     color: theme.palette.text.primary,
     '& .MuiTypography-root': {

@@ -221,6 +221,7 @@ const Filters = ({
       <Grid item xs={6} md={3}>
         <FormControl className={classes.selectorContainer}>
           <Autocomplete
+            ListboxProps={{ sx: { backgroundColor: 'white' } }}
             value={allAssetOptions.find(option => option.value === asset)}
             onChange={handleAssetChange}
             id="select-asset"
