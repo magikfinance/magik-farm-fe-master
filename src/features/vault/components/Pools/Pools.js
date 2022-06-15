@@ -72,7 +72,7 @@ export default function Pools() {
   return (
     <Grid container className={classes.container}>
       <Grid container className={classes.infoContainer}>
-        <Grid item xs={6}>
+        <Grid item xs={12} md={6}>
           <h1 className={classes.title}>{t('Vault-Network')}</h1>
           <NetworksToggle />
           {/* {fetchVaultsDataDone && activePoolCount && (
@@ -81,7 +81,7 @@ export default function Pools() {
             </>
           )} */}
         </Grid>
-        <Grid item xs={6}>
+        <Grid item xs={12} md={6}>
           <div className={classes.tvl}>
             <span className={classes.totalTvl}>
               TOTAL TVL{' '}
