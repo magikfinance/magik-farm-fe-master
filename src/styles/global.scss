@@ -1,5 +1,6 @@
 * {
-  font-family: 'proxima-nova', sans-serif !important;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
   text-rendering: optimizeLegibility;
   box-shadow: none !important;
 }
@@ -7,17 +8,16 @@
 .fa,
 .far,
 .fas {
-  font-family: 'Font Awesome 5 Free' !important;
+  font-family: "Font Awesome 5 Free" !important;
 }
 
 .fab {
-  font-family: 'Font Awesome 5 Brands' !important;
+  font-family: "Font Awesome 5 Brands" !important;
 }
 
 body {
   margin: 0;
   padding: 0;
-  background-color: #fbf9f6;
 }
 
 .tooltip-toggle {

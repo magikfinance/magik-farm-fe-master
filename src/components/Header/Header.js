@@ -23,7 +23,7 @@ const useStyles = makeStyles(styles);
 const StyledDialog = withStyles(theme => ({
   paper: {
     margin: '16px',
-    backgroundColor: 'red',//theme.palette.background.primary,
+    backgroundColor: 'red', //theme.palette.background.primary,
   },
   paperScrollPaper: {
     maxHeight: 'calc(100% - 32px)',
@@ -49,25 +49,27 @@ const Header = ({ links, isNightMode, setNightMode }) => {
             <Hidden xsDown>
               <img
                 alt="MAGIK"
-                src={require(`images/single-assets/MAGIK.png`)}
-                height={'40px'}
-                className={classes.logo}
+                src={require(`images/logo.svg`)}
+                height={'60px'}
+                className={classes.logoBig}
               />
-              MAGIK AC
             </Hidden>
             <Hidden smUp>
               <img
                 alt="MAGIK"
-                src={require(`images/single-assets/MAGIK.png`)}
+                src={require(`images/logo-single.svg`)}
                 height={'35px'}
                 className={classes.logo}
-              />  
-            </  Hidden>
-            <a href="https://avery-bigweapon.gitbook.io/magik.farm-docs/" className={classes.link}>
-                Documentation
-              </a>
+              />
+            </Hidden>
           </Button>
         </Link>
+
+        <div className={classes.links}>
+          <a href="https://avery-bigweapon.gitbook.io/magik.farm-docs/" className={classes.link}>
+            Docs
+          </a>
+        </div>
 
         <Hidden smDown implementation="css">
           <div className={classes.collapse}>{links}</div>
@@ -93,8 +95,9 @@ const Header = ({ links, isNightMode, setNightMode }) => {
           }}
           onClose={handleDrawerToggle}
         >
-         <IconButton
-            colo r="inherit"
+          <IconButton
+            colo
+            r="inherit"
             aria-label="open drawer"
             onClick={handleDrawerToggle}
             className={classes.closeButtonDrawer}
@@ -103,17 +106,25 @@ const Header = ({ links, isNightMode, setNightMode }) => {
           </IconButton>
           <div className={classes.appResponsive}>{links}</div>
           <div style={{ textAlign: 'center' }}>
-            <a class="title" href="https://magik.finance/" target="_blank" rel="noopener noreferrer">
+            <a
+              class="title"
+              href="https://magik.finance/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <h3>
                 <u>Magik Finance</u>
               </h3>
             </a>
-            <a  href="https://avery-bigweapon.gitbook.io/magik.farm-docs/" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://avery-bigweapon.gitbook.io/magik.farm-docs/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <h3>
                 <u>Documentation</u>
               </h3>
             </a>
-
           </div>
         </Drawer>
       </Hidden>

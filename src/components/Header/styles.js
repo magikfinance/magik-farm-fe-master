@@ -149,7 +149,7 @@ const styles = theme => ({
   },
   dark: {
     color: whiteColor,
-    backgroundColor: 'rgba(0,0,0, 0.25)',
+    backgroundColor: 'rgb(0,0,0)',
     backdropFilter: 'blur(30px)',
     boxShadow: '0px 0px',
   },
@@ -219,21 +219,30 @@ const styles = theme => ({
   logo: {
     marginRight: '12px',
   },
+  logoBig: {
+    marginRight: '12px',
+    transform: 'translateY(6px)'
+  },
   middleNav: {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
   },
+  links: {
+    display: 'flex',
+    marginRight: 'auto'
+  },
   link: {
+    fontFamily: "'Bebas Neue', sans-serif",
+    color: 'white',
     display: 'inline-flex',
     margin: '0 1rem',
     background: 'transparent',
     border: 0,
     padding: 0,
     cursor: 'pointer',
-    fontSize: '1rem',
+    fontSize: '16pt',
     fontWeight: 400,
-    color: '#000',
     textDecoration: 'none',
     '&:hover': {
       textDecoration: 'underline',

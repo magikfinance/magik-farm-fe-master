@@ -11,7 +11,7 @@ const createThemeMode = isNightMode =>
         secondary: isNightMode ? '#3B3A4D' : '#F8F2EC',
         extra: isNightMode ? '#242332' : '#FBF6F0',
         dark: isNightMode ? '#2B2A3D' : '#999',
-        paused: isNightMode ? '#2B2A5A' : '#FCE57E',
+        paused: isNightMode ? 'rgba(35, 38, 69, 0.71)' : '#232645',
         retired: isNightMode ? '#d32f2f' : '#e57373',
         hover: isNightMode ? '#2B2A3D' : '#EFE6DC',
         border: isNightMode ? '#2B2A3D' : '#DED9D5',
@@ -27,6 +27,10 @@ const createThemeMode = isNightMode =>
         primary: isNightMode ? '#fff' : '#000',
         secondary: isNightMode ? '#B0B0DD' : '#00000066',
       },
+    },
+    fonts: {
+      highlight: '"Bebas Neue", sans-serif',
+      text: "'Open Sans', sans-serif",
     },
     overrides: {
       MuiButton: {
