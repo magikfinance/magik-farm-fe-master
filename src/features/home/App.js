@@ -17,7 +17,7 @@ import { useLocation } from 'react-router';
 
 const themes = { light: null, dark: null };
 const getTheme = mode => {
-  return (themes[mode] = themes[mode] || createThemeMode(mode === 'dark'));
+  return (themes[mode] = themes[mode] || createThemeMode(true));
 };
 
 const ScrollToTop = memo(function () {
@@ -37,7 +37,7 @@ export default function App({ children }) {
   const [web3Modal, setModal] = useState(null);
 
   const { isNightMode, setNightMode } = useNightMode();
-  const theme = useMemo(() => getTheme(isNightMode ? 'dark' : 'light'), [isNightMode]);
+  const theme = useMemo(() => getTheme('dark'), [isNightMode]);
   const useStyles = useMemo(() => {
     return makeStyles(appStyle, { defaultTheme: theme });
   }, [theme]);

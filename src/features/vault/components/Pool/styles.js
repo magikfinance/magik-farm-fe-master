@@ -2,7 +2,7 @@ const styles = theme => ({
   container: {
     marginBottom: '24px',
     backgroundColor: 'rgba(85, 23, 162, 0.7)',
-    backdropFilter: 'blur(30px)',
+    backdropFilter: 'blur(10px)',
     borderRadius: '20px',
     boxShadow: theme.shadow.card,
   },

@@ -9,7 +9,7 @@ const styles = theme => ({
     marginBottom: '10px',
     fontSize: '1rem',
     lineHeight: '20px',
-    color: theme.palette.text.secondary,
+    color: theme.palette.text.primary,
     fontWeight: '500',
   },
   showDetailButtonCon: {
@@ -21,28 +21,31 @@ const styles = theme => ({
   },
   showDetailButton: {
     margin: '12px 5px',
-    fontSize: '14px',
+    fontSize: '22px',
     fontWeight: 'bold',
+    letterSpacing: '1px',
     borderRadius: '5px',
     width: '160px',
+    color: primaryColor[0],
+    fontFamily: `${theme.fonts.highlight}`,
+    fontWeight: 'initial',
+    padding: '4px 0px'
   },
   showDetailButtonOutlined: {
     backgroundColor: 'transparent',
     border: `1px solid ${theme.palette.primary.main}`,
     color: primaryColor[0],
-    '&:hover': {
-      '& .MuiButton-label': {
-        color: 'white',
-      },
-    },
     '& .MuiTouchRipple-root span': {
       backgroundColor: primaryColor[0],
     },
   },
   showDetailButtonContained: {
-    backgroundColor: primaryColor[0],
+    backgroundColor: "white",
+    '&:hover': {
+      backgroundColor: "rgba(255, 255, 255, 0.8)",
+    },
     '& .MuiButton-label': {
-      color: 'white',
+      color: primaryColor[0],
     },
   },
   numericInput: {
@@ -50,21 +53,25 @@ const styles = theme => ({
   },
   balanceMax: {
     cursor: 'pointer',
-    color: theme.palette.text.secondary,
-    borderBottom: '1px dashed',
+    color: theme.palette.text.primary,
+    borderBottom: '1px solid',
   },
   zapNote: {
     width: '100%',
     textAlign: 'left',
     fontSize: '14px',
-    color: theme.palette.text.secondary,
+    marginTop: '8px',
+    color: theme.palette.text.primary,
+    '& li': {
+      paddingLeft: '16px'
+    },
   },
   zapFormControl: {
     minWidth: 'auto',
   },
   zapSelect: {
     border: 'none',
-    borderLeft: `1px solid ${theme.palette.text.secondary}`,
+    borderLeft: `1px solid ${theme.palette.text.primary}`,
     paddingLeft: '10px',
     '& > div': {
       padding: '6px 0',
@@ -76,6 +83,9 @@ const styles = theme => ({
       content: 'none',
     },
   },
+  sliderCont: {
+    padding: '10px'
+  }
 });
 
 export default styles;

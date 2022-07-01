@@ -7,6 +7,7 @@ const styles = theme => ({
     boxShadow: theme.shadow.card,
     borderRadius: '12px',
     background: theme.palette.background.paused,
+    backdropFilter: 'blur(10px)',
     marginBottom: '2rem',
     fontWeight: 900,
     color: theme.palette.text.primary,
@@ -19,10 +20,12 @@ const styles = theme => ({
   totalTvl: {
     fontFamily: "'Bebas Neue', sans-serif",
     fontSize: '64px',
+    fontWeight: 'initial'
   },
   deposited: {
     fontFamily: theme.fonts.highlight,
     fontSize: '32px',
+    fontWeight: 'initial'
   },
   title: {
     fontSize: '24px',

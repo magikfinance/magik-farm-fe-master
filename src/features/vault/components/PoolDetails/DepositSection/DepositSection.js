@@ -307,8 +307,8 @@ const DepositSection = ({ pool }) => {
   const vaultState = getVaultState(pool.status, pool.depositsPaused);
   const swapTokenOut = depositSettings.isZap
     ? eligibleTokens.find(
-        t => t.address.toLowerCase() == pool.zapEstimate?.swapTokenOut?.toLowerCase()
-      )
+      t => t.address.toLowerCase() == pool.zapEstimate?.swapTokenOut?.toLowerCase()
+    )
     : undefined;
 
   const vaultFee = t('Vault-DepositAndWithdrawFee', {
@@ -336,6 +336,7 @@ const DepositSection = ({ pool }) => {
           value={depositSettings.input}
           onChange={handleInputAmountChange}
           fullWidth
+          className={classes.outlinedInput}
           endAdornment={
             pool.zap && (
               <FormControl className={classes.zapFormControl}>
@@ -356,12 +357,15 @@ const DepositSection = ({ pool }) => {
           }
         />
       </FormControl>
-      <CustomSlider
-        aria-labelledby="continuous-slider"
-        value={depositSettings.slider}
-        onChange={handleSliderChange}
-        onChangeCommitted={handleSliderChangeCommitted}
-      />
+      <div className={classes.sliderCont}>
+        <CustomSlider
+          aria-labelledby="continuous-slider"
+          value={depositSettings.slider}
+          onChange={handleSliderChange}
+          onChangeCommitted={handleSliderChangeCommitted}
+        />
+      </div>
+
       {vaultState.display === true ? (
         vaultState.content
       ) : (

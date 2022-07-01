@@ -4,7 +4,6 @@ const styles = theme => ({
   },
   title: {
     fontFamily: theme.fonts.highlight,
-    fontWeight: 'bold',
     color: 'white',
     letterSpacing: 0,
     minWidth: '150px',

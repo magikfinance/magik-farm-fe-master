@@ -64,7 +64,7 @@ const PoolTitle = ({
     <Grid container wrap="nowrap">
       {avatar}
       <div className={classes.texts}>
-        <Typography variant="body2" gutterBottom>
+        <Typography variant="body">
           {poolId ? (
             <Link to={`/${chain}/vault/${poolId}`} className={classes.title}>
               {name}
