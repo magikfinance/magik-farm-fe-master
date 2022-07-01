@@ -8,7 +8,7 @@ import axios from 'axios';
 import fs from 'fs';
 
 async function main() {
-  const web3 = new Web3('https://rpc.ftm.tools/');
+  const web3 = new Web3('https://rpc.fantom.network');
   let arr = [];
 
   for (let i = 0; i < pools.length; i++) {

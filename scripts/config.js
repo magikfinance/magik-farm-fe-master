@@ -29,7 +29,7 @@ export const chainRpcs = {
   // heco: process.env.HECO_RPC || 'https://http-mainnet.hecochain.com',
   avax: process.env.AVAX_RPC || 'https://api.avax.network/ext/bc/C/rpc',
   // polygon: process.env.POLYGON_RPC || 'https://polygon-rpc.com',
-  fantom: process.env.FANTOM_RPC || 'https://rpc.ftm.tools/',
+  fantom: process.env.FANTOM_RPC || 'https://rpc.fantom.network',
   aurora: process.env.AURORA_RPC || 'https://mainnet.aurora.dev/',
   // one: process.env.HARMONY_RPC || 'https://api.s0.t.hmny.io/',
   // arbitrum: process.env.ARBITRUM_RPC || 'https://arb1.arbitrum.io/rpc',
