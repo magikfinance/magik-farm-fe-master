@@ -7,18 +7,20 @@ const useStyles = makeStyles(theme => ({
     alignItems: 'center',
     justifyContent: 'space-around',
     width: '100%',
-    height: '56px',
-    borderRadius: '12px',
+    height: '48px',
+    borderRadius: '30px',
     fontSize: '18px',
     color: theme.palette.text.primary,
     lineHeight: '24px',
     fontWeight: '500',
     outline: 'none',
-  },
-  focused: {
     '& fieldset': {
-      border: `1px solid${theme.palette.text.primary} !important`,
+      border: `1px solid ${theme.palette.text.primary}`,
+      borderColor: 'white !important'
     },
+    '& input': {
+      paddingLeft: '24px'
+    }
   },
 }));
 

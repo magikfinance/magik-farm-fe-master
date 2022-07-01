@@ -355,12 +355,15 @@ const WithdrawSection = ({ pool, index, sharesBalance }) => {
           }
         />
       </FormControl>
-      <CustomSlider
-        aria-labelledby="continuous-slider"
-        value={withdrawSettings.slider}
-        onChange={handleSliderChange}
-        onChangeCommitted={handleSliderChangeCommitted}
-      />
+      <div className={classes.sliderCont}>
+        <CustomSlider
+          aria-labelledby="continuous-slider"
+          value={withdrawSettings.slider}
+          onChange={handleSliderChange}
+          onChangeCommitted={handleSliderChangeCommitted}
+        />
+      </div>
+
       <div className={classes.showDetailButtonCon}>
         {pool.refund === true ? (
           <RefundButtons

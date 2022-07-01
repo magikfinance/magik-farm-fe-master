@@ -1,9 +1,10 @@
 body {
   background-image: url('bg.png');
   background-color: #121732 !important;
-  background-attachment: scroll;
-  background-position-x: center;
+  background-attachment: fixed;
+  background-position: center;
   background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .makeStyles-accordion-129 {

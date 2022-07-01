@@ -8,6 +8,7 @@ const styles = theme => ({
     boxShadow: theme.shadow.card,
     borderRadius: '12px',
     alignItems: 'center',
+    backdropFilter: 'blur(10px)',
   },
 
   selectorContainer: {
@@ -21,6 +22,7 @@ const styles = theme => ({
       fontSize: '54px',
       fontFamily: theme.fonts.highlight,
       color: 'white',
+      fontWeight: 'initial'
     },
   },
 

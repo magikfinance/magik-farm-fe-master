@@ -7,6 +7,7 @@ const styles = theme => ({
     textAlign: 'center',
   },
   disclaimer: {
+    backdropFilter: 'blur(10px)',
     boxShadow: theme.shadow.card,
     padding: '32px 32px 32px 42px',
     borderRadius: '12px',
