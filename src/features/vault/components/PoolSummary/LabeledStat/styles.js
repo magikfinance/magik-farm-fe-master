@@ -8,7 +8,6 @@ const styles = theme => ({
   stat: {
     fontFamily: theme.fonts.highlight,
     fontSize: '24px',
-    fontWeight: 'bold',
     color: theme.palette.text.primary,
     lineHeight: '18px',
     letterSpacing: 0,

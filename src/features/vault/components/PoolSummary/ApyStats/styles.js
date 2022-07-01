@@ -3,7 +3,6 @@ const styles = theme => ({
     fontSize: 14,
   },
   label: {
-    fontWeight: 'bold',
     paddingRight: '10px',
   },
   value: {

@@ -336,6 +336,7 @@ const DepositSection = ({ pool }) => {
           value={depositSettings.input}
           onChange={handleInputAmountChange}
           fullWidth
+          className={classes.outlinedInput}
           endAdornment={
             pool.zap && (
               <FormControl className={classes.zapFormControl}>

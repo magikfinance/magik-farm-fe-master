@@ -67,6 +67,10 @@ const styles = theme => ({
   },
   numericInput: {
     color: primaryColor[0],
+    borderRadius: '30px',
+  },
+  outlinedInput: {
+    borderRadius: '30px',
   },
   subtitle: {
     textAlign: 'center',
