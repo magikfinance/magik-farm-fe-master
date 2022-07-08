@@ -62,7 +62,7 @@ export const networkSettings = {
       symbol: 'FTM',
       decimals: 18,
     },
-    rpcUrls: ['https://rpc.fantom.network'],
+    rpcUrls: ['https://rpc.ftm.tools'],
     blockExplorerUrls: ['https://ftmscan.com/'],
   },
   1313161554: {
