@@ -1,6 +1,6 @@
 export const avalanchePools = [
   {
-    id: 'champ-avic-usdc',
+    id: 'cham-avic-usdc',
     name: 'AVIC - USDC 🔥',
     token: 'AVIC - USDC',
     tokenDescription: 'Championfinance.io - AVIC-USDC LP AC Auto Fee Share Vault 🔥',
@@ -13,7 +13,7 @@ export const avalanchePools = [
     pricePerFullShare: 1,
     tvl: 0,
     oracle: 'lps',
-    oracleId: 'champ-avic-usdc',
+    oracleId: 'cham-avic-usdc',
     oraclePrice: 0,
     depositsPaused: false,
     partnership: true,
