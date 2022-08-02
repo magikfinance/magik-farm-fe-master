@@ -7,7 +7,7 @@ export const avalanchePools = [
     tokenAddress: '0x7748456409D4Eee3FaCE6aD0c492DD9853A1CC3d',
     tokenDecimals: 18,
     tokenDescriptionUrl: '#',
-    earnedToken: 'MagikFarm - VIC-USDC LP',
+    earnedToken: 'MagikFarm - AVIC-USDC LP',
     earnedTokenAddress: '0x720Ee1f99eAB68ffB5182510EBC66c365BfD442b',
     earnContractAddress: '0x720Ee1f99eAB68ffB5182510EBC66c365BfD442b',
     pricePerFullShare: 1,
