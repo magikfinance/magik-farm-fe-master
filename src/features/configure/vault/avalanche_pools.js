@@ -1,9 +1,9 @@
 export const avalanchePools = [
   {
     id: 'champ-avic-usdc',
-    name: 'VIC - USDC 🔥',
-    token: 'VIC - USDC',
-    tokenDescription: 'Championfinance.io - VIC-USDC LP AC Auto Fee Share Vault 🔥',
+    name: 'AVIC - USDC 🔥',
+    token: 'AVIC - USDC',
+    tokenDescription: 'Championfinance.io - AVIC-USDC LP AC Auto Fee Share Vault 🔥',
     tokenAddress: '0x7748456409D4Eee3FaCE6aD0c492DD9853A1CC3d',
     tokenDecimals: 18,
     tokenDescriptionUrl: '#',
