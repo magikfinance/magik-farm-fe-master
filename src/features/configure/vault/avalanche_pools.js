@@ -249,7 +249,7 @@ export const avalanchePools = [
     pricePerFullShare: 1,
     tvl: 0,
     oracle: 'lps',
-    oracleId: 'grape-wine-mim',
+    oracleId: 'grape-grape-wine',
     oraclePrice: 0,
     depositsPaused: false,
     partnership: true,
