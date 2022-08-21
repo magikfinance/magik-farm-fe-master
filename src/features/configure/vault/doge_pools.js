@@ -28,4 +28,33 @@ export const dogePools = [
     buyTokenUrl:
       'https://yodeswap.dog/exchange/swap?inputCurrency=0xb7ddc6414bf4f5515b52d8bdd69973ae205ff101&outputCurrency=0x6FC4563460d5f45932C473334d5c1C5B4aEA0E01',
   },
+  {
+    id: 'yodeswap-yode-usdc',
+    name: 'Yode-USDC LP',
+    token: 'Yode-USDC LP',
+    tokenDescription: 'yodeswap.dog - AC Auto Fee Share Vault 🔥',
+    tokenAddress: '0x0a5a84AdEE386d295326D93403A92a128130F944',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'MagikFarm - YODE-USDC-LP',
+    earnedTokenAddress: '0x05ad532Df6f34832669843568ce2f5240234BCd5',
+    earnContractAddress: '0x05ad532Df6f34832669843568ce2f5240234BCd5',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'yodeswap-yode-usdc',
+    oraclePrice: 0,
+    depositsPaused: false,
+    partnership: true,
+    isMooStaked: true,
+    status: 'active',
+    platform: 'SpiritSwap',
+    assets: ['YODE', 'USDC'],
+    risks: ['COMPLEXITY_LOW', 'BATTLE_TESTED', 'IL_LOW', 'AUDIT', 'CONTRACTS_VERIFIED'],
+    stratType: 'StratLP',
+    addLiquidityUrl:
+      'https://yodeswap.dog/exchange/add/0x0a5a84AdEE386d295326D93403A92a128130F944/0x6FC4563460d5f45932C473334d5c1C5B4aEA0E01',
+    buyTokenUrl:
+      'https://yodeswap.dog/exchange/swap?inputCurrency=0x0a5a84AdEE386d295326D93403A92a128130F944&outputCurrency=0x6FC4563460d5f45932C473334d5c1C5B4aEA0E01',
+  },
 ];
