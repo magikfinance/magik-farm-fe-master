@@ -3,7 +3,7 @@ export const dogePools = [
     id: 'yodeswap-yode-wwdoge',
     name: 'Yode-WWDOGE LP',
     token: 'Yode-WWDOGE LP',
-    tokenDescription: 'Magik Finance - AC Auto Fee Share Vault 🔥',
+    tokenDescription: 'yodeswap.dog - AC Auto Fee Share Vault 🔥',
     tokenAddress: '0x2Dd53abcFEBE71a9Cd5dFF4f44458E14707F9280',
     tokenDecimals: 18,
     tokenDescriptionUrl: '#',
