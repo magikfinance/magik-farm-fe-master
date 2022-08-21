@@ -44,7 +44,7 @@ export const dogePools = [
     oracle: 'lps',
     oracleId: 'yodeswap-yode-usdc',
     oraclePrice: 0,
-    depositsPaused: false,
+    depositsPaused: true,
     partnership: true,
     isMooStaked: true,
     status: 'active',
