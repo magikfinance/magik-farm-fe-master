@@ -12,6 +12,7 @@ const {
   arbitrum: arbitrumAddressBook,
   moonriver: moonriverAddressBook,
   cronos: cronosAddressBook,
+  doge: dogeAddressBook,
 } = addressBook;
 export {
   bscAddressBook,
@@ -25,6 +26,7 @@ export {
   arbitrumAddressBook,
   moonriverAddressBook,
   cronosAddressBook,
+  dogeAddressBook,
 };
 
 export {
@@ -46,6 +48,7 @@ export { celoStakePools } from './stake/celo_stake';
 export { moonriverStakePools } from './stake/moonriver_stake';
 export { polygonStakePools } from './stake/polygon_stake';
 export { fantomStakePools } from './stake/fantom_stake';
+export { dogeStakePools } from './stake/doge_stake';
 export { harmonyStakePools } from './stake/harmony_stake';
 export { arbitrumStakePools } from './stake/arbitrum_stake';
 export { cronosStakePools } from './stake/cronos_stake';
@@ -56,6 +59,7 @@ export { celoPools } from './vault/celo_pools';
 export { moonriverPools } from './vault/moonriver_pools';
 export { polygonPools } from './vault/polygon_pools';
 export { fantomPools } from './vault/fantom_pools';
+export { dogePools } from './vault/doge_pools';
 export { auroraStakePools } from './stake/aurora_stake';
 export { auroraPools } from './vault/aurora_pools';
 export { auroraZaps } from './zap/aurora_zaps';

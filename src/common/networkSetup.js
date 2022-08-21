@@ -76,6 +76,17 @@ export const networkSettings = {
     rpcUrls: ['https://mainnet.aurora.dev/'],
     blockExplorerUrls: ['https://explorer.mainnet.aurora.dev/'],
   },
+  2000: {
+    chainId: `0x${parseInt(250, 10).toString(16)}`,
+    chainName: 'Doge Chain',
+    nativeCurrency: {
+      name: 'Wrapped Doge',
+      symbol: 'wwDOGE',
+      decimals: 18,
+    },
+    rpcUrls: ['https://rpc-sg.dogechain.dog'],
+    blockExplorerUrls: ['https://ftmscan.com/'],
+  },
   // 1666600000: {
   //   chainId: `0x${parseInt(1666600000, 10).toString(16)}`,
   //   chainName: 'Harmony One',

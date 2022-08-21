@@ -19,6 +19,8 @@ import {
   fantomStakePools,
   fantomAddressBook,
   fantomZaps,
+  dogeStakePools,
+  dogePools,
   hecoPools,
   hecoStakePools,
   hecoAddressBook,
@@ -27,6 +29,7 @@ import {
   polygonPools,
   polygonStakePools,
   polygonAddressBook,
+  dogeAddressBook,
   polygonZaps,
   celoPools,
   celoStakePools,
@@ -80,6 +83,7 @@ const networkFriendlyName = {
   1285: 'Moonriver',
   25: 'Cronos',
   1313161554: 'Aurora',
+  2000: 'Doge Chain',
 };
 
 const networkBuyUrls = {
@@ -98,6 +102,7 @@ const networkBuyUrls = {
   1285: 'https://app.sushi.com/swap?inputCurrency=0x173fd7434b8b50df08e3298f173487ebdb35fd14&outputCurrency=0xf50225a84382c74cbdea10b0c176f71fc3de0c4d',
   25: 'https://vvs.finance/swap?inputCurrency=0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23&outputCurrency=0xe6801928061cdbe32ac5ad0634427e140efd05f9',
   1313161554: '',
+  2000: '',
 };
 
 export const getNetworkCoin = () => {
@@ -128,6 +133,8 @@ export const getNetworkPools = () => {
       return cronosPools;
     case 1313161554:
       return auroraPools;
+    case 2000:
+      return dogePools;
     default:
       return [];
   }
@@ -157,6 +164,8 @@ export const getNetworkVaults = (networkId = appNetworkId) => {
       return indexBy(cronosPools, 'id');
     case 1313161554:
       return indexBy(auroraPools, 'id');
+    case 2000:
+      return indexBy(dogePools, 'id');
     default:
       return {};
   }
@@ -186,6 +195,8 @@ export const getNetworkLaunchpools = (networkId = appNetworkId) => {
       return indexBy(cronosStakePools, 'id');
     case 1313161554:
       return indexBy(auroraStakePools, 'id');
+    case 2000:
+      return indexBy(dogeStakePools, 'id');
     default:
       return {};
   }
@@ -216,6 +227,8 @@ export const getNetworkTokens = () => {
       return cronosAddressBook.tokens;
     case 1313161554:
       return auroraAddressBook.tokens;
+    case 2000:
+      return dogeAddressBook.tokens;
     default:
       throw new Error(
         `Create address book for chainId(${chainId}) first. Check out https://github.com/beefyfinance/address-book`
@@ -257,6 +270,8 @@ export const getNetworkBurnTokens = () => {
     case 25:
       return {};
     case 1313161554:
+      return {};
+    case 2000:
       return {};
     default:
       throw new Error(`Create address book for this chainId first.`);
@@ -362,6 +377,8 @@ export const getNetworkStables = () => {
       return ['USDC', 'USDT', 'DAI', 'BUSD'];
     case 1313161554:
       return ['USDC', 'USDT'];
+    case 2000:
+      return ['USDC', 'USDT'];
     default:
       return [];
   }
@@ -391,6 +408,8 @@ export const getNetworkMulticall = () => {
       return '0x13aD51a6664973EbD0749a7c84939d973F247921';
     case 1313161554:
       return '0x55f46144bC62e9Af4bAdB71842B62162e2194E90';
+    case 2000:
+      return '0xafe3ce90BaA1579BA4C83C872109bd4537aba8AE';
     default:
       return '';
   }
@@ -623,6 +642,19 @@ export const getNetworkConnectors = t => {
     case 25:
       return {
         network: 'cronos',
+        cacheProvider: true,
+        providerOptions: {
+          injected: {
+            display: {
+              name: 'Injected',
+              description: t('Home-BrowserWallet'),
+            },
+          },
+        },
+      };
+    case 2000:
+      return {
+        network: 'dogechain',
         cacheProvider: true,
         providerOptions: {
           injected: {

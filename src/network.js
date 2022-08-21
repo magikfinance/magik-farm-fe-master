@@ -43,6 +43,12 @@ export const allNetworks = [
     id: 25,
     hash: '/cronos',
   },
+  {
+    name: 'DOGE',
+    asset: 'DOGE',
+    id: 2000,
+    hash: '/doge',
+  },
   // {
   //   name: 'CELO',
   //   asset: 'CELO',

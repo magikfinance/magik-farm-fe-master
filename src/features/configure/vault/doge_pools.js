@@ -1,0 +1,31 @@
+export const dogePools = [
+  {
+    id: 'yodeswap-yode-wwdoge',
+    name: 'Yode-WWDOGE LP',
+    token: 'Yode-WWDOGE LP',
+    tokenDescription: 'Magik Finance - AC Auto Fee Share Vault 🔥',
+    tokenAddress: '0x2Dd53abcFEBE71a9Cd5dFF4f44458E14707F9280',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'MagikFarm - YODE-WWDOGE-LP',
+    earnedTokenAddress: '0xe8cE63e37bB4B662837144058c298C4e7Fd0b93C',
+    earnContractAddress: '0xe8cE63e37bB4B662837144058c298C4e7Fd0b93C',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'yodeswap-yode-wwdoge',
+    oraclePrice: 0,
+    depositsPaused: false,
+    partnership: true,
+    isMooStaked: true,
+    status: 'active',
+    platform: 'SpiritSwap',
+    assets: ['YODE', 'WWDOGE'],
+    risks: ['COMPLEXITY_LOW', 'BATTLE_TESTED', 'IL_LOW', 'AUDIT', 'CONTRACTS_VERIFIED'],
+    stratType: 'StratLP',
+    addLiquidityUrl:
+      'https://yodeswap.dog/exchange/add/WDOGE/0x6FC4563460d5f45932C473334d5c1C5B4aEA0E01',
+    buyTokenUrl:
+      'https://yodeswap.dog/exchange/swap?inputCurrency=0xb7ddc6414bf4f5515b52d8bdd69973ae205ff101&outputCurrency=0x6FC4563460d5f45932C473334d5c1C5B4aEA0E01',
+  },
+];

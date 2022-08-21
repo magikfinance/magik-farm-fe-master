@@ -8743,10 +8743,10 @@ ltgt@~2.2.0:
   resolved "https://registry.yarnpkg.com/ltgt/-/ltgt-2.2.1.tgz#f35ca91c493f7b73da0e07495304f17b31f87ee5"
   integrity sha512-AI2r85+4MquTw9ZYqabu4nMwy9Oftlfa/e/52t9IjtfG+mGBbTNdAoZ3RQKLHR6r0wQnwZnPIEh/Ya6XTWAKNA==
 
-magik-addressbook@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/magik-addressbook/-/magik-addressbook-2.0.0.tgz#e699a93ed649555954be51d55e2f1a431af216a9"
-  integrity sha512-LV7IvoljpgBkpw16x4/l2XxIR2MutdjyYhd+e546E2gmhLHza+EAYzKKiqhtBbMEAdfEGtwNvoiiBJFWlHMlDA==
+magik-addressbook@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/magik-addressbook/-/magik-addressbook-2.0.1.tgz#a96dea258ca5a66c2a2d6d27ba34afce36fb76dd"
+  integrity sha512-bXqJogqMGjNnTRglaZg7i1i+eypbxAGyP0o0yc8ivrnYvMcuPKNwfS0Yp/Ll25qkkgTD02OAiOLbxxumTxswVQ==
 
 make-dir@^2.0.0, make-dir@^2.1.0:
   version "2.1.0"

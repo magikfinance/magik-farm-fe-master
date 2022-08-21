@@ -56,6 +56,14 @@ export const nativeCoins = [
     allowance: Infinity,
   },
   {
+    chainId: 2000,
+    name: 'DogeChain',
+    symbol: 'DOGE',
+    decimals: 18,
+    wrappedSymbol: 'wwDOGE',
+    allowance: Infinity,
+  },
+  {
     chainId: 1313161554,
     name: 'Aurora',
     symbol: 'ETH',

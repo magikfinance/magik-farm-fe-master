@@ -24,7 +24,7 @@
     "history": "^5.0.0",
     "i18next": "^19.8.2",
     "i18next-browser-languagedetector": "^6.0.1",
-    "magik-addressbook": "^2.0.0",
+    "magik-addressbook": "^2.0.1",
     "moment": "^2.29.1",
     "notistack": "^1.0.1",
     "react": "^17.0.0",
