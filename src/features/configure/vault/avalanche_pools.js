@@ -1,5 +1,34 @@
 export const avalanchePools = [
   {
+    id: 'gladiator-glad-avax', //make sure this matches the api lpPools.json file
+    name: 'GLAD - WAVAX', //name of Deposit token
+    token: 'GLAD - WAVAX', //same as Deposit Token
+    tokenDescription: 'gladiatorfinance.app - GLAD-WAVAX LP AC Auto Burn Vault 🔥', //uses descriptor,
+    tokenAddress: '0x36e66BC3C6F4Ccaed436EDd42D9053AF276b18CA', //the actual lp token you're depositing
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'MagikFarm - GLAD - WAVAX LP', //this has to match the magikfarm receipt vault token
+    earnedTokenAddress: '0x70ED83EBb7Cb72C2e5e12Cb7a0B1EDFb7be1b31F',
+    earnContractAddress: '0x70ED83EBb7Cb72C2e5e12Cb7a0B1EDFb7be1b31F',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'gladiator-glad-avax',
+    oraclePrice: 0,
+    depositsPaused: false,
+    partnership: true,
+    isMooStaked: true,
+    status: 'active',
+    platform: 'GladiatorFinance',
+    assets: ['GLAD', 'AVAX'],
+    risks: ['COMPLEXITY_LOW', 'BATTLE_TESTED', 'IL_LOW', '5AUDIT', 'CONTRACTS_VERIFIED'],
+    stratType: 'StratLP',
+    addLiquidityUrl:
+      'https://traderjoexyz.com/pool/AVAX/0xA7c43db4c0F6b59EC3BA65e256025721871AbA7D#/',
+    buyTokenUrl:
+      'https://traderjoexyz.com/trade?outputCurrency=0xa7c43db4c0f6b59ec3ba65e256025721871aba7d#/',
+  },
+  {
     id: 'cham-avic-usdc',
     name: 'AVIC - USDC 🔥',
     token: 'AVIC - USDC',
