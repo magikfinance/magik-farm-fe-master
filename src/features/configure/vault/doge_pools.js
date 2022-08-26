@@ -1,5 +1,34 @@
 export const dogePools = [
   {
+    id: 'yodeswap-wbtc-usdc',
+    name: 'WBTC-USDC LP',
+    token: 'WBTC-USDC LP',
+    tokenDescription: 'yodeswap.dog - AC Auto Fee Share Vault 🔥',
+    tokenAddress: '0x5aC5529f6d948d565A7832B0950592845B029584',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'MagikFarm - YS-WBTC-USDC-LP',
+    earnedTokenAddress: '0x12AefAa0c1961d450D5772a5e94D721A9eBAF72c',
+    earnContractAddress: '0x12AefAa0c1961d450D5772a5e94D721A9eBAF72c',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'yodeswap-wbtc-usdc',
+    oraclePrice: 0,
+    depositsPaused: false,
+    partnership: true,
+    isMooStaked: true,
+    status: 'active',
+    platform: 'Yodeswap',
+    assets: ['WBTC', 'USDC'],
+    risks: ['COMPLEXITY_LOW', 'BATTLE_TESTED', 'IL_LOW', 'AUDIT', 'CONTRACTS_VERIFIED'],
+    stratType: 'StratLP',
+    addLiquidityUrl:
+      'https://app.yodeswap.dog/exchange/add/0xfA9343C3897324496A05fC75abeD6bAC29f8A40f/0x765277EebeCA2e31912C9946eAe1021199B39C61',
+    buyTokenUrl:
+      'https://app.yodeswap.dog/exchange/swap/0xfA9343C3897324496A05fC75abeD6bAC29f8A40f/0x765277EebeCA2e31912C9946eAe1021199B39C61',
+  },
+  {
     id: 'yodeswap-eth-usdc',
     name: 'ETH-USDC LP',
     token: 'ETH-USDC LP',
@@ -26,7 +55,7 @@ export const dogePools = [
     addLiquidityUrl:
       'https://yodeswap.dog/exchange/add/0xfb75965be47e030f1a2e04fa2b6b7E3D92ef9546/0x765277EebeCA2e31912C9946eAe1021199B39C61',
     buyTokenUrl:
-      'https://yodeswap.dog/exchange/swap?inputCurrency=0xfb75965be47e030f1a2e04fa2b6b7E3D92ef9546&outputCurrency=0x765277EebeCA2e31912C9946eAe1021199B39C61',
+      'https://app.yodeswap.dog/exchange/swap?inputCurrency=0xfb75965be47e030f1a2e04fa2b6b7E3D92ef9546&outputCurrency=0x765277EebeCA2e31912C9946eAe1021199B39C61',
   },
   {
     id: 'yodeswap-yode-wwdoge',
@@ -55,7 +84,7 @@ export const dogePools = [
     addLiquidityUrl:
       'https://yodeswap.dog/exchange/add/WDOGE/0x6FC4563460d5f45932C473334d5c1C5B4aEA0E01',
     buyTokenUrl:
-      'https://yodeswap.dog/exchange/swap?inputCurrency=0xb7ddc6414bf4f5515b52d8bdd69973ae205ff101&outputCurrency=0x6FC4563460d5f45932C473334d5c1C5B4aEA0E01',
+      'https://app.yodeswap.dog/exchange/swap?inputCurrency=0xb7ddc6414bf4f5515b52d8bdd69973ae205ff101&outputCurrency=0x6FC4563460d5f45932C473334d5c1C5B4aEA0E01',
   },
   {
     id: 'yodeswap-yode-usdc',
@@ -84,7 +113,7 @@ export const dogePools = [
     addLiquidityUrl:
       'https://yodeswap.dog/exchange/add/0x765277EebeCA2e31912C9946eAe1021199B39C61/0x6FC4563460d5f45932C473334d5c1C5B4aEA0E01',
     buyTokenUrl:
-      'https://yodeswap.dog/exchange/swap?inputCurrency=0x765277EebeCA2e31912C9946eAe1021199B39C61&outputCurrency=0x6FC4563460d5f45932C473334d5c1C5B4aEA0E01',
+      'https://app.yodeswap.dog/exchange/swap?inputCurrency=0x765277EebeCA2e31912C9946eAe1021199B39C61&outputCurrency=0x6FC4563460d5f45932C473334d5c1C5B4aEA0E01',
   },
   {
     id: 'yodeswap-usdc-wwdoge',
@@ -113,6 +142,6 @@ export const dogePools = [
     addLiquidityUrl:
       'https://yodeswap.dog/exchange/add/WDOGE/0x765277EebeCA2e31912C9946eAe1021199B39C61',
     buyTokenUrl:
-      'https://yodeswap.dog/exchange/swap/WDOGE/&outputCurrency=0x765277EebeCA2e31912C9946eAe1021199B39C61',
+      'https://app.yodeswap.dog/exchange/swap/WDOGE/&outputCurrency=0x765277EebeCA2e31912C9946eAe1021199B39C61',
   },
 ];
