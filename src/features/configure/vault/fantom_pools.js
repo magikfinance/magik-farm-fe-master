@@ -70,7 +70,7 @@ export const fantomPools = [
     oracle: 'lps',
     oracleId: 'magikswap-mshare-magik',
     oraclePrice: 0,
-    depositsPaused: false,
+    depositsPaused: true,
     partnership: true,
     isMooStaked: true,
     status: 'active',
