@@ -95,7 +95,7 @@ export const fantomPools = [
     pricePerFullShare: 1,
     tvl: 0,
     oracle: 'lps',
-    oracleId: 'MagikFarm-MS-MAGIK-MIM',
+    oracleId: 'magikswap-mim-magik',
     oraclePrice: 0,
     depositsPaused: false,
     partnership: true,
