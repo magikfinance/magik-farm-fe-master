@@ -120,6 +120,35 @@ export const cronosPools = [
       'https://www.smxswap.com/#/swap?inputCurrency=0xe44Fd7fCb2b1581822D0c862B68222998a0c299a&outputCurrency=0x046cb616d7a52173e4da9eff1bfd590550aa3228',
   },
   {
+    id: 'darkcrystl-mine-musd',
+    name: 'MINE-MUSD LP🔥',
+    token: 'MINE-MUSD LP',
+    tokenDescription: 'cronos.darkcrystl.com - MINE-MUSD LP AC Auto Fee Share Vault 🔥',
+    tokenAddress: '0xB13ae168C893e5bD15f6caAa1D2Da11047e393cA',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'Magikfarm - MINE-MUSD LP',
+    earnedTokenAddress: '0xC4e7A13C0966b572a572a0DA1fe23ddBB3aC3067',
+    earnContractAddress: '0xC4e7A13C0966b572a572a0DA1fe23ddBB3aC3067',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'darkcrystl-mine-musd',
+    oraclePrice: 0,
+    depositsPaused: false,
+    partnership: true,
+    isMooStaked: true,
+    status: 'active',
+    platform: 'Darkcrystl',
+    assets: ['MINE', 'MUSD'],
+    risks: ['COMPLEXITY_LOW', 'BATTLE_TESTED', 'IL_LOW', 'AUDIT', 'CONTRACTS_VERIFIED'],
+    stratType: 'StratLP',
+    addLiquidityUrl:
+      'https://mm.finance/add/0x95aeaf383e2e86a47c11cffde1f7944ecb2c38c2/0x0944d9a8Dea16af1170c51E8DD3921C727A06cBd',
+    buyTokenUrl:
+      'https://mm.finance/swap?outputCurrency=0x95aeaf383e2e86a47c11cffde1f7944ecb2c38c2&inputCurrency=0x0944d9a8Dea16af1170c51E8DD3921C727A06cBd',
+  },
+  {
     id: 'darkcrystl-darkcrystl-wcro',
     name: 'DARKCRYSTL-WCRO LP🔥',
     token: 'DARKCRYSTL-WCRO LP',
@@ -193,7 +222,7 @@ export const cronosPools = [
     oracle: 'lps',
     oracleId: 'darkcrystl-darkcrystl-mine',
     oraclePrice: 0,
-    depositsPaused: false,
+    depositsPaused: true,
     partnership: true,
     isMooStaked: true,
     status: 'active',
@@ -204,6 +233,6 @@ export const cronosPools = [
     addLiquidityUrl:
       'https://mm.finance/add/0xEfA1FABC2AB6219174aD1c912F56f7de53cDc1E1/0x0944d9a8Dea16af1170c51E8DD3921C727A06cBd',
     buyTokenUrl:
-      'https://spookyswap.finance/swap?outputCurrency=0xEfA1FABC2AB6219174aD1c912F56f7de53cDc1E1&inputCurrency=0x0944d9a8Dea16af1170c51E8DD3921C727A06cBd',
+      'https://mm.finance/swap?outputCurrency=0xEfA1FABC2AB6219174aD1c912F56f7de53cDc1E1&inputCurrency=0x0944d9a8Dea16af1170c51E8DD3921C727A06cBd',
   },
 ];
