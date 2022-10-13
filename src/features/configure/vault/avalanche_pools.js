@@ -1,5 +1,38 @@
 export const avalanchePools = [
   {
+    id: 'joe-xwrls',
+    logo: 'single-assets/XWRLS.png',
+    name: 'XWLRS',
+    token: 'XLWRS',
+    tokenDescription: 'frozenwalrus.finance - XWLRS Single Stake AC Vault',
+    tokenAddress: '0x2dc3Bb328000553D1D64ec1BEF00572F62B5Ec7C',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'MagikFarm - XWRLS Single Stake',
+    earnedTokenAddress: '0x9cCE96a353855913f9C0863e1Fd7ce52C9738391',
+    earnContractAddress: '0x9cCE96a353855913f9C0863e1Fd7ce52C9738391',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'tokens',
+    oracleId: 'joe-xwrls',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'Frozen Walrus',
+    assets: ['XWLRS'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_NONE',
+      'MCAP_MICRO',
+      'AUDIT',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'SingleStake',
+    buyTokenUrl:
+      'https://xwlrs.frozenwalrus.finance/',
+  },
+  {
     id: 'gladiator-glad-avax', //make sure this matches the api lpPools.json file
     name: 'GLAD - WAVAX', //name of Deposit token
     token: 'GLAD - WAVAX', //same as Deposit Token
