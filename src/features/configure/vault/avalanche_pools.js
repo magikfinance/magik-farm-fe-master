@@ -14,7 +14,7 @@ export const avalanchePools = [
     pricePerFullShare: 1,
     tvl: 0,
     oracle: 'tokens',
-    oracleId: 'joe-xwrls',
+    oracleId: 'joe-xwlrs',
     oraclePrice: 0,
     depositsPaused: false,
     status: 'active',
@@ -29,8 +29,7 @@ export const avalanchePools = [
       'CONTRACTS_VERIFIED',
     ],
     stratType: 'SingleStake',
-    buyTokenUrl:
-      'https://xwlrs.frozenwalrus.finance/',
+    buyTokenUrl: 'https://xwlrs.frozenwalrus.finance/',
   },
   {
     id: 'gladiator-glad-avax', //make sure this matches the api lpPools.json file
