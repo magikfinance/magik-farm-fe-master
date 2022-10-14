@@ -14,7 +14,7 @@ export const avalanchePools = [
     pricePerFullShare: 1,
     tvl: 0,
     oracle: 'tokens',
-    oracleId: 'joe-xwlrs',
+    oracleId: 'xWLRS',
     oraclePrice: 0,
     depositsPaused: false,
     status: 'active',
