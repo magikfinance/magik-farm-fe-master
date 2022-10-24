@@ -2,8 +2,8 @@ export const fantomPools = [
   {
     id: 'spirit-magik',
     logo: 'single-assets/MAGIK.png',
-    name: 'MAGIK🔥',
-    token: 'MAGIK🔥',
+    name: 'MAGIK Burn Pit🔥',
+    token: 'MAGIK Burn Pit🔥',
     tokenDescription: 'Magik.Finance - Single Stake AC Burn Pit Vault🔥',
     tokenAddress: '0x87a5c9b60a3aaf1064006fe64285018e50e0d020',
     tokenDecimals: 18,
