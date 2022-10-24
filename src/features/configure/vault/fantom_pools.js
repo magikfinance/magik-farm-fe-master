@@ -17,7 +17,7 @@ export const fantomPools = [
     oracle: 'tokens',
     oracleId: 'MAGIK',
     oraclePrice: 0,
-    depositsPaused: true,
+    depositsPaused: false,
     status: 'active',
     platform: 'MagikSwap',
     assets: ['MAGIK'],
