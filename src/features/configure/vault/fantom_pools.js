@@ -1,6 +1,6 @@
 export const fantomPools = [
   {
-    id: 'magikswap-magik',
+    id: 'spirit-magik',
     logo: 'single-assets/MAGIK.png',
     name: 'MAGIK🔥',
     token: 'MAGIK🔥',
