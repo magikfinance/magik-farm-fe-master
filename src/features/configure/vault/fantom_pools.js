@@ -12,7 +12,7 @@ export const fantomPools = [
     earnedTokenAddress: '0x0365b8Aa14D5Eecea962C28e4531D1bc2a22D612',
     earnContractAddress: '0x0365b8Aa14D5Eecea962C28e4531D1bc2a22D612',
     pricePerFullShare: 1,
-    withdrawalFee: '0.5%',
+    withdrawalFee: '4%',
     tvl: 0,
     oracle: 'tokens',
     oracleId: 'MAGIK',
