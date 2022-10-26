@@ -373,7 +373,7 @@ export const avalanchePools = [
     depositsPaused: true,
     partnership: true,
     isMooStaked: true,
-    status: 'active',
+    status: 'eol',
     platform: 'JOE',
     assets: ['WLRS', 'USDIBS'],
     risks: ['COMPLEXITY_LOW', 'BATTLE_TESTED', 'IL_LOW', '5AUDIT', 'CONTRACTS_VERIFIED'],
