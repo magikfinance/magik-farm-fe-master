@@ -1,9 +1,9 @@
 export const avalanchePools = [
   {
-    id: 'joe-xwrls',
+    id: 'joe-xwlrs',
     logo: 'single-assets/XWRLS.png',
-    name: 'XWLRS',
-    token: 'XLWRS',
+    name: 'xWLRS',
+    token: 'xWLRS',
     tokenDescription: 'frozenwalrus.finance - XWLRS Single Stake AC Vault',
     tokenAddress: '0x2dc3Bb328000553D1D64ec1BEF00572F62B5Ec7C',
     tokenDecimals: 18,

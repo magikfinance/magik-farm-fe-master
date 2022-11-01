@@ -248,11 +248,7 @@ export const getNetworkBurnTokens = () => {
         [avaxAddressBook.tokens.aSING.symbol]: avaxAddressBook.tokens.aSING,
       };
     case 137:
-      return {
-        [polygonAddressBook.tokens.xYELD.symbol]: polygonAddressBook.tokens.xYELD,
-        [polygonAddressBook.tokens.PEAR.symbol]: polygonAddressBook.tokens.PEAR,
-        [polygonAddressBook.tokens.pSING.symbol]: polygonAddressBook.tokens.pSING,
-      };
+      return {};
     case 250:
       return {
         [fantomAddressBook.tokens.TOMB.symbol]: fantomAddressBook.tokens.TOMB,

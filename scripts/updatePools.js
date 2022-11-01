@@ -20,7 +20,7 @@ async function main() {
     if (!pools[i].creationBlock) {
       let response = await axios
         .get(
-          `https://magikfarm.herokuapp.com/api?module=account&action=txlist&address=${contractAddress}&startblock=0&sort=asc&page=1&offset=1`
+          `http://localhost:4444/api?module=account&action=txlist&address=${contractAddress}&startblock=0&sort=asc&page=1&offset=1`
         )
         .then();
       pools[i].creationBlock = response.data['result'][0]['blockNumber'];

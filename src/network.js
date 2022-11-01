@@ -7,12 +7,12 @@ export const allNetworks = [
   //   hash: '/heco',
   // },
 
-  // {
-  //   name: 'POLYGON',
-  //   asset: 'POLYGON',
-  //   id: 137,
-  //   hash: '/polygon',
-  // },
+  {
+    name: 'POLYGON',
+    asset: 'POLYGON',
+    id: 137,
+    hash: '/polygon',
+  },
   {
     name: 'FANTOM',
     asset: 'FANTOM',
