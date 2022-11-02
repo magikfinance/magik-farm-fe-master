@@ -46,7 +46,7 @@ export const fantomPools = [
     earnedTokenAddress: '0x9c7B23FD57a9a6A1E6205E82D7d3266cFB37C921',
     earnContractAddress: '0x9c7B23FD57a9a6A1E6205E82D7d3266cFB37C921',
     pricePerFullShare: 1,
-    withdrawalFee: '0.1%',
+    withdrawalFee: '2%',
     tvl: 0,
     oracle: 'tokens',
     oracleId: 'xMSHARE',
