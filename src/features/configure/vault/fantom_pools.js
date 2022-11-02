@@ -51,7 +51,7 @@ export const fantomPools = [
     oracle: 'tokens',
     oracleId: 'xMSHARE',
     oraclePrice: 0,
-    depositsPaused: true,
+    depositsPaused: false,
     status: 'active',
     platform: 'MagikSwap',
     assets: ['xMSHARE'],
