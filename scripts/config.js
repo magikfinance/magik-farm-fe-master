@@ -1,7 +1,7 @@
 import { bscPools } from '../src/features/configure/vault/bsc_pools.js';
 // import { hecoPools } from '../src/features/configure/vault/heco_pools.js';
 import { avalanchePools } from '../src/features/configure/vault/avalanche_pools.js';
-// import { polygonPools } from '../src/features/configure/vault/polygon_pools.js';
+import { polygonPools } from '../src/features/configure/vault/polygon_pools.js';
 import { fantomPools } from '../src/features/configure/vault/fantom_pools.js';
 import { auroraPools } from '../src/features/configure/vault/aurora_pools.js';
 import { dogePools } from '../src/features/configure/vault/doge_pools';
@@ -15,7 +15,7 @@ export const chainPools = {
   bsc: bscPools,
   // heco: hecoPools,
   avax: avalanchePools,
-  // polygon: polygonPools,
+  polygon: polygonPools,
   fantom: fantomPools,
   aurora: auroraPools,
   doge: dogePools,
@@ -30,7 +30,7 @@ export const chainRpcs = {
   bsc: process.env.BSC_RPC || 'https://bsc-dataseed.binance.org/',
   // heco: process.env.HECO_RPC || 'https://http-mainnet.hecochain.com',
   avax: process.env.AVAX_RPC || 'https://api.avax.network/ext/bc/C/rpc',
-  // polygon: process.env.POLYGON_RPC || 'https://polygon-rpc.com',
+  polygon: process.env.POLYGON_RPC || 'https://polygon-rpc.com',
   fantom: process.env.FANTOM_RPC || 'https://rpc.ftm.tools',
   aurora: process.env.AURORA_RPC || 'https://mainnet.aurora.dev/',
   doge: process.env.DOGE_RPC || 'https://rpc-sg.dogechain.dog',

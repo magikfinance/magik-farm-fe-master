@@ -8,16 +8,16 @@ export const allNetworks = [
   // },
 
   {
-    name: 'POLYGON',
-    asset: 'POLYGON',
-    id: 137,
-    hash: '/polygon',
-  },
-  {
     name: 'FANTOM',
     asset: 'FANTOM',
     id: 250,
     hash: '/fantom',
+  },
+  {
+    name: 'POLYGON',
+    asset: 'POLYGON',
+    id: 137,
+    hash: '/polygon',
   },
   {
     name: 'AVALANCHE',
