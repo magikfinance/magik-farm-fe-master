@@ -3,7 +3,7 @@ export const fantomPools = [
     id: 'equalizer-magik-ftm',
     name: 'MAGIK-FTM LP Equalizer Farm',
     token: 'MAGIK-FTM LP Equalizer Farm',
-    tokenDescription: 'Equalizer.exchange LP - AC Vault 🔥',
+    tokenDescription: 'Equalizer.exchange LP - AC Vault',
     tokenAddress: '0x7e46D5F4Add361bb52b5a933b0e004E924170ba0',
     tokenDecimals: 18,
     tokenDescriptionUrl: '#',
