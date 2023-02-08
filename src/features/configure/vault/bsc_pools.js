@@ -15,9 +15,9 @@ export const bscPools = [
     oracle: 'lps',
     oracleId: 'truth-magik-busd',
     oraclePrice: 0,
-    depositsPaused: true,
+    depositsPaused: false,
     status: 'active',
-    platform: 'EMP.Money',
+    platform: 'CommandSwap',
     assets: ['MAGIK', 'BUSD'],
     risks: [
       'COMPLEXITY_LOW',
