@@ -6,6 +6,7 @@ import { useTranslation } from 'react-i18next';
 import { SnackbarProvider } from 'notistack';
 import { Notifier } from 'features/common';
 import Footer from 'components/Footer/Footer';
+import TermsAndConditionsModal from 'components/TermsAndConditions/TermsAndConditions';
 import Pastures from 'components/Pastures/Pastures';
 import { NetworkConnectNotice } from 'components/NetworkConnectNotice/NetworkConnectNotice';
 import appStyle from './jss/appStyle.js';
@@ -61,6 +62,12 @@ export default function App({ children }) {
     disconnectWallet(web3, web3Modal);
   }, [web3, web3Modal, disconnectWallet]);
 
+  const [termsAndConditionsOpen, setTermsAndConditionsOpen] = useState(true);
+
+  const handleTermsAndConditionsClose = () => {
+    setTermsAndConditionsOpen(false);
+  };
+
   return (
     <StylesProvider injectFirst>
       <ThemeProvider theme={theme}>
@@ -80,6 +87,10 @@ export default function App({ children }) {
               }
               isNightMode={isNightMode}
               setNightMode={() => setNightMode(!isNightMode)}
+            />
+            <TermsAndConditionsModal
+              isOpen={termsAndConditionsOpen}
+              handleClose={handleTermsAndConditionsClose}
             />
             <div className={classes.container}>
               <div className={classes.children}>
