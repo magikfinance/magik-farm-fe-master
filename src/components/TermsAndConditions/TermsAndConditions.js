@@ -19,10 +19,8 @@ const TermsAndConditionsModal = memo(function TermsAndConditionsModal({ isOpen, 
   };
 
   const handleAgreeClick = () => {
-    if (agree) {
-      document.cookie = 'termsAgreed=true; expires=Fri, 17 Feb 2023 23:59:59 GMT; path=/';
-      handleClose();
-    }
+    document.cookie = 'termsAgreed=true; expires=Fri, 17 Feb 9999 23:59:59 GMT; path=/';
+    handleClose();
   };
 
   const handleCloseClick = () => {
@@ -146,7 +144,7 @@ const TermsAndConditionsModal = memo(function TermsAndConditionsModal({ isOpen, 
         />
       </DialogContent>
       <DialogActions>
-        <Button onClick={handleAgreeClick} disabled={!agree} color="primary">
+        <Button onClick={handleAgreeClick} color="primary">
           {t('Agree')}
         </Button>
         <Button onClick={handleCloseClick} color="primary">
