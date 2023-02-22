@@ -138,10 +138,10 @@ const TermsAndConditionsModal = memo(function TermsAndConditionsModal({ isOpen, 
           <strong>AGE RESTRICTIONS</strong>
         </p>
         <p>By accepting these terms you certify that you are at least 18 years of age.</p>
-        <FormControlLabel
+        {/* <FormControlLabel
           control={<Checkbox checked={agree} onChange={handleAgreeChange} />}
           label={t('I Agree to the Terms and Conditions')}
-        />
+        /> */}
       </DialogContent>
       <DialogActions>
         <Button onClick={handleAgreeClick} color="primary">
