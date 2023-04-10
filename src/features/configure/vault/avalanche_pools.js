@@ -23,10 +23,8 @@ export const avalanchePools = [
     assets: ['MAGIK', 'AVAX'],
     risks: ['COMPLEXITY_LOW', 'BATTLE_TESTED', 'IL_LOW', '5AUDIT', 'CONTRACTS_VERIFIED'],
     stratType: 'StratLP',
-    addLiquidityUrl:
-      'https://traderjoexyz.com/pool/AVAX/0xA7c43db4c0F6b59EC3BA65e256025721871AbA7D#/',
-    buyTokenUrl:
-      'https://traderjoexyz.com/trade?outputCurrency=0xa7c43db4c0f6b59ec3ba65e256025721871aba7d#/',
+    addLiquidityUrl: 'https://www.glacier.exchange/liquidity',
+    buyTokenUrl: 'https://www.glacier.exchange/swap',
   },
   {
     id: 'joe-xwlrs',
