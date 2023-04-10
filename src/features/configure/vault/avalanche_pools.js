@@ -1,5 +1,34 @@
 export const avalanchePools = [
   {
+    id: 'glacier-magik-wavax', //make sure this matches the api lpPools.json file
+    name: 'MAGIK - WAVAX', //name of Deposit token
+    token: 'MAGIK - WAVAX', //same as Deposit Token
+    tokenDescription: 'glacier.exchange - MAGIK-WAVAX LP AC Vault', //uses descriptor,
+    tokenAddress: '0x4a8bAeE5F9F07D10aB191910a5642C86131A79aA', //the actual lp token you're depositing
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'MagikFarm - MAGIK - WAVAX LP', //this has to match the magikfarm receipt vault token
+    earnedTokenAddress: '0xF0bD884Be432f44A27CD1cDC0f5cdAc8C567d6Fa',
+    earnContractAddress: '0xF0bD884Be432f44A27CD1cDC0f5cdAc8C567d6Fa',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'glacier-magik-wavax',
+    oraclePrice: 0,
+    depositsPaused: false,
+    partnership: true,
+    isMooStaked: true,
+    status: 'active',
+    platform: 'Glacier',
+    assets: ['MAGIK', 'AVAX'],
+    risks: ['COMPLEXITY_LOW', 'BATTLE_TESTED', 'IL_LOW', '5AUDIT', 'CONTRACTS_VERIFIED'],
+    stratType: 'StratLP',
+    addLiquidityUrl:
+      'https://traderjoexyz.com/pool/AVAX/0xA7c43db4c0F6b59EC3BA65e256025721871AbA7D#/',
+    buyTokenUrl:
+      'https://traderjoexyz.com/trade?outputCurrency=0xa7c43db4c0f6b59ec3ba65e256025721871aba7d#/',
+  },
+  {
     id: 'joe-xwlrs',
     logo: 'single-assets/XWRLS.png',
     name: 'xWLRS',
